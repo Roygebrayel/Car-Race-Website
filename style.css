@@ -63,7 +63,7 @@ section {
    width: 100%;
    display: flex;
    align-items: center;
-   background: url(car.jpg);
+   background: url(photos/car.jpg);
    background-size: cover;
    background-position: center;
 }
