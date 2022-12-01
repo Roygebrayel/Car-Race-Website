@@ -75,24 +75,63 @@ section {
     letter-spacing: 1px;
     
 }
-.title {
-    display: flex;
-    justify-content: center;
-    color: black;
-    font-size: 2.2em;
-    font-weight: 800;
+
+/* css for the service section  */
+
+.services {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.services h1 {
+    margin-top: 30px;
     margin-bottom: 30px;
-
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    border: 6px;
 
 }
-.content {
+
+.image {
+    margin-top: 20px;
+    position: relative;
+    width: 400px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-sell {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.image-sell-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    opacity: 0;
+    /*hidden by default */
+    transition: opacity 0.25s;
+    cursor: pointer;
 }
-.card {
-    background-color: bisque;
-    width: 21.25em;
-    box-shadow: 0 5px rgba(1, 1, 1 / 15) ;
+
+.image-sell-overlay:hover {
+    opacity: 1;
+}
+
+.image-desc {
+    font-size: 50px;
+    font-weight: bold;
 }
