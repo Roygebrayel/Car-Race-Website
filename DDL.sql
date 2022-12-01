@@ -7,10 +7,6 @@ CREATE table Racing_Driver (
     FN VARCHAR (255),
     rk Integer,
     PRIMARY KEY (RD)
-
-    
-
-
 );
 
 
