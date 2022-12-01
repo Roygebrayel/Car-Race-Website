@@ -1,0 +1,332 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "AdvanceOption": {
+            "properties": {
+                "groupingTables": {
+                    "description": "whether to group tables with same prefix.",
+                    "type": "boolean"
+                },
+                "groupingThreshold": {
+                    "description": "Tables are only grouped when a threshold is exceeded.",
+                    "type": "number"
+                },
+                "safeUpdateMode": {
+                    "description": "mysql safe update mode",
+                    "type": "boolean"
+                },
+                "showForeignKey": {
+                    "description": "Whether to display the foreign keys of mysql and mariadb, it is not displayed by default, because it will affect the query columns speed.",
+                    "type": "boolean"
+                },
+                "sqlMode": {
+                    "description": "mysql sql mode",
+                    "type": "string"
+                },
+                "trimCountSQL": {
+                    "description": "Remove order by clause from count sql",
+                    "type": "boolean"
+                }
+            },
+            "type": "object"
+        },
+        "DatabaseType": {
+            "enum": [
+                "ClickHouse",
+                "Common",
+                "Docker",
+                "ElasticSearch",
+                "FTP",
+                "JDBC",
+                "MariaDB",
+                "MongoDB",
+                "MySQL",
+                "Neo4j",
+                "Oracle",
+                "PostgreSQL",
+                "Redis",
+                "Redshift",
+                "S3",
+                "SQLite",
+                "SSH",
+                "SqlServer",
+                "达梦"
+            ],
+            "type": "string"
+        },
+        "NodeConfg": {
+            "properties": {
+                "advance": {
+                    "$ref": "#/definitions/AdvanceOption"
+                },
+                "authType": {
+                    "type": "string"
+                },
+                "caPath": {
+                    "type": "string"
+                },
+                "clientCertPath": {
+                    "type": "string"
+                },
+                "clientKeyPath": {
+                    "type": "string"
+                },
+                "connectTimeout": {
+                    "type": "number"
+                },
+                "connectionKey": {
+                    "description": "status",
+                    "type": "string"
+                },
+                "connectionUrl": {
+                    "type": "string"
+                },
+                "database": {
+                    "type": "string"
+                },
+                "dbPath": {
+                    "description": "sqlite db path",
+                    "type": "string"
+                },
+                "dbType": {
+                    "$ref": "#/definitions/DatabaseType"
+                },
+                "disable": {
+                    "type": "boolean"
+                },
+                "dockerConnType": {
+                    "enum": [
+                        "socket",
+                        "ssh",
+                        "tcp"
+                    ],
+                    "type": "string"
+                },
+                "domain": {
+                    "type": "string"
+                },
+                "driver": {
+                    "type": "string"
+                },
+                "driverPath": {
+                    "type": "string"
+                },
+                "encoding": {
+                    "description": "ftp transfer encoding",
+                    "type": "string"
+                },
+                "encrypt": {
+                    "description": "mssql only",
+                    "type": "boolean"
+                },
+                "esAuth": {
+                    "type": "string"
+                },
+                "esToken": {
+                    "type": "string"
+                },
+                "esUrl": {
+                    "description": "using when ssh tunnel",
+                    "type": "string"
+                },
+                "es_scheme": {
+                    "description": "es only",
+                    "type": "string"
+                },
+                "global": {
+                    "type": "boolean"
+                },
+                "group": {
+                    "description": "conneciton group",
+                    "type": "string"
+                },
+                "hideSystemSchema": {
+                    "type": "boolean"
+                },
+                "host": {
+                    "type": "string"
+                },
+                "includeDatabases": {
+                    "type": "string"
+                },
+                "instanceName": {
+                    "type": "string"
+                },
+                "isCluster": {
+                    "description": "set redis connection as cluster mode.",
+                    "type": "boolean"
+                },
+                "jdbcDialect": {
+                    "$ref": "#/definitions/DatabaseType",
+                    "description": "jdbc only"
+                },
+                "latestVersion": {
+                    "description": "using newest version dialect, only work for clickhouse",
+                    "type": "boolean"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "port": {
+                    "type": "number"
+                },
+                "protocol": {
+                    "description": "clichouse only, http or https",
+                    "type": "string"
+                },
+                "readonly": {
+                    "type": "boolean"
+                },
+                "requestTimeout": {
+                    "type": "number"
+                },
+                "s3AccessKey": {
+                    "type": "string"
+                },
+                "s3AccessSecret": {
+                    "type": "string"
+                },
+                "s3PathStyle": {
+                    "type": "boolean"
+                },
+                "s3Region": {
+                    "type": "string"
+                },
+                "s3ServiceIds": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "s3UseSSL": {
+                    "type": "boolean"
+                },
+                "savePassword": {
+                    "$ref": "#/definitions/SavePasswordType"
+                },
+                "showHidden": {
+                    "description": "show hidden file on sftp or ftp connection.",
+                    "type": "boolean"
+                },
+                "socketPath": {
+                    "type": "string"
+                },
+                "sort": {
+                    "type": [
+                        "string",
+                        "number"
+                    ]
+                },
+                "ssh": {
+                    "$ref": "#/definitions/SSHConfig",
+                    "description": "SSH tunnel config."
+                },
+                "sshConnect": {
+                    "$ref": "#/definitions/SSHConfig",
+                    "description": "SSH connection config."
+                },
+                "timezone": {
+                    "description": "mysql connection timezone",
+                    "type": "string"
+                },
+                "useConnectionString": {
+                    "type": "boolean"
+                },
+                "useSSL": {
+                    "type": "boolean"
+                },
+                "user": {
+                    "type": "string"
+                },
+                "usingSSH": {
+                    "description": "whether to use ssh tunnel",
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "host"
+            ],
+            "type": "object"
+        },
+        "SSHConfig": {
+            "properties": {
+                "connectTimeout": {
+                    "type": "number"
+                },
+                "ftpRoot": {
+                    "type": "string"
+                },
+                "host": {
+                    "type": "string"
+                },
+                "key": {
+                    "description": "Use only on SSH connections",
+                    "type": "string"
+                },
+                "passphrase": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "port": {
+                    "type": "number"
+                },
+                "privateKeyPath": {
+                    "type": "string"
+                },
+                "type": {
+                    "description": "password privateKey",
+                    "type": "string"
+                },
+                "username": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "host",
+                "port",
+                "username"
+            ],
+            "type": "object"
+        },
+        "SavePasswordType": {
+            "enum": [
+                "Forever",
+                "Never"
+            ],
+            "type": "string"
+        }
+    },
+    "properties": {
+        "database": {
+            "additionalProperties": {
+                "$ref": "#/definitions/NodeConfg"
+            },
+            "type": "object"
+        },
+        "database.connections": {
+            "additionalProperties": {
+                "$ref": "#/definitions/NodeConfg"
+            },
+            "type": "object"
+        },
+        "nosql": {
+            "additionalProperties": {
+                "$ref": "#/definitions/NodeConfg"
+            },
+            "type": "object"
+        },
+        "nosql.connections": {
+            "additionalProperties": {
+                "$ref": "#/definitions/NodeConfg"
+            },
+            "type": "object"
+        }
+    },
+    "type": "object"
+}
+
