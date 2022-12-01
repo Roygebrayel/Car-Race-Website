@@ -1,19 +1,19 @@
 -- Active: 1669894427276@@127.0.0.1@3306@carrace
 
-CREATE TABLE RacingCar (
-    RC INTEGER AUTO_INCREMENT NOT NULL,
-    power INTEGER,
-    color VARCHAR (255),
-    PRIMARY KEY (RC)
+
+
+CREATE table Racing_Driver ( 
+    RD  INTEGER NOT NULL AUTO_INCREMENT, 
+    FN VARCHAR (255),
+    rk Integer,
+    PRIMARY KEY (RD)
+
     
+
+
 );
 
-CREATE TABLE Racing_Driver(
-    RD INTEger NOT NULL AUTO_INCREMENT,
-    FN varchar(255),
-    Rank integer,
-     PRIMARY KEY (RD)
-);
+
 CREATE TABLE Racing_Team (
     RT INTEGER  NOT NULL AUTO_INCREMENT,
     NAME VARCHAR(255 ),
@@ -21,3 +21,10 @@ CREATE TABLE Racing_Team (
     PRIMARY KEY (RT)
 );
 
+CREATE TABLE RacingCar (
+    RC INTEGER AUTO_INCREMENT NOT NULL,
+    power INTEGER,
+    color VARCHAR (255),
+    PRIMARY KEY (RC)
+    
+);
