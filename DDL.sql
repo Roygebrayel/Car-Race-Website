@@ -8,4 +8,16 @@ CREATE TABLE RacingCar (
     
 );
 
+CREATE TABLE Racing_Driver(
+    RD INTEger NOT NULL AUTO_INCREMENT,
+    FN varchar(255),
+    Rank integer,
+     PRIMARY KEY (RD)
+);
+CREATE TABLE Racing_Team (
+    RT INTEGER  NOT NULL AUTO_INCREMENT,
+    NAME VARCHAR(255 ),
+    Number_Of_Members INTEGER,
+    PRIMARY KEY (RT)
+);
 
