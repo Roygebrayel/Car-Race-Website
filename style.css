@@ -122,7 +122,6 @@ section {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    /*hidden by default */
     transition: opacity 0.25s;
     cursor: pointer;
 }
@@ -135,3 +134,5 @@ section {
     font-size: 50px;
     font-weight: bold;
 }
+
+/* css for footer */
