@@ -47,10 +47,55 @@ ALTER TABLE Racing_Driver
 ADD FOREIGN KEY (Racing_Car_RC) REFERENCES Racing_Car(RC);
 
 CREATE TABLE Car_Manufacturar(
-    Manu Integer ,
-    Mname VARCHAR(255) ,
+    Manu Integer UNIQUE AUTO_INCREMENT NOT NULL ,
+    Mname VARCHAR(255) NOT NULL ,
     Country VARCHAR(3) ,
-    PRIMARY KEY (Manu)
+    PRIMARY KEY (Manu,Mname)
   );
+
+
+  ALTER TABLE Racing_Car 
+ADD car_manufacturar_Manu INTEGER;
+
+ ALTER TABLE Racing_Car
+ADD FOREIGN KEY (car_manufacturar_Manu) REFERENCES Car_Manufacturar(Manu);
+
+ALTER TABLE Racing_Car
+ADD car_manufacturar_Mname INTEGER;
+
+
+-- bug problem
+
+ ALTER TABLE Racing_Car
+ADD FOREIGN KEY (car_manufacturar_Mname) REFERENCES Car_Manufacturar(Mname);
+
+CREATE Table mechanic (
+    Mech INTEGER AUTO_INCREMENT UNIQUE NOT NULL,
+    MechName VARCHAR (255),
+    salary_Per_Hour INTEGER,
+    PRIMARY KEY (Mech) 
+
+);
+
+ALTER TABLE mechanic 
+ADD Racing_Team_RT INTEGER;
+
+ALTER TABLE mechanic
+ADD FOREIGN KEY (Racing_Team_RT) REFERENCES Racing_Team(RT);
+
+CREATE TABLE Engineer(
+    
+    Eng INTEGER AUTO_INCREMENT NOT NULL UNIQUE COMMENT "TEST",
+    PRIMARY KEY (Eng)
+);
+
+
+
+
+
+
+
+
+
 
 
