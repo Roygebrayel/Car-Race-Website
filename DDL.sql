@@ -24,4 +24,3 @@ CREATE TABLE RacingCar (
     PRIMARY KEY (RC)
     
 );
-helo vergine
