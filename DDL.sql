@@ -198,9 +198,15 @@ Add FOREIGN KEY (Racing_Car_RC) REFERENCES Racing_Car (RC);
 CREATE TABLE Adjust(
 Racing_Driver_Rd INTEGER,
 Racing_Car_RC INTEGER,
-Mechanic_Mech Integer,
-PRIMARY KEY (Racing_Driver_Rd,Racing_Car_RC,Mechanic_Mech)
+Mechanic_Mech Integer
+
 );
+-- method to add all primary keys in one key 
+ALTER TABLE Adjust
+ ADD CONSTRAINT Adjust_pk PRIMARY KEY (Racing_Driver_Rd,
+Racing_Car_RC,
+Mechanic_Mech );
+
 --adding foreign keys Adjust table
 ALTER TABLE Adjust
 Add FOREIGN KEY (Racing_Driver_Rd) REFERENCES Racing_Driver(RD);
