@@ -7,7 +7,9 @@ CREATE table Racing_Driver (
     FN VARCHAR (255),
     rk Integer,
     PRIMARY KEY (RD)
+    
 );
+
 
 
 CREATE TABLE Racing_Team (
@@ -17,10 +19,28 @@ CREATE TABLE Racing_Team (
     PRIMARY KEY (RT)
 );
 
-CREATE TABLE RacingCar (
+ALTER TABLE Racing_Driver 
+ADD Racing_Team_RT INTEGER;
+
+ALTER TABLE Racing_Driver 
+ADD FOREIGN KEY (Racing_Team_RT) REFERENCES Racing_Team(RT);
+
+
+
+
+CREATE TABLE Racing_Car (
     RC INTEGER AUTO_INCREMENT NOT NULL,
     power INTEGER,
     color VARCHAR (255),
     PRIMARY KEY (RC)
     
 );
+
+ALTER TABLE Racing_Driver
+ADD Racing_Car_RC INTEGER NOT NULL;
+
+ALTER TABLE Racing_Driver
+ADD FOREIGN KEY (Racing_Car_RC) REFERENCES Racing_Car(RC);
+
+
+
