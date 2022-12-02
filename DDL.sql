@@ -3,7 +3,7 @@
 
 
 CREATE table Racing_Driver ( 
-    RD  INTEGER NOT NULL AUTO_INCREMENT, 
+    RD  INTEGER AUTO_INCREMENT, 
     FN VARCHAR (255),
     rk Integer,
     PRIMARY KEY (RD)
@@ -13,7 +13,7 @@ CREATE table Racing_Driver (
 
 
 CREATE TABLE Racing_Team (
-    RT INTEGER  NOT NULL AUTO_INCREMENT,
+    RT INTEGER   AUTO_INCREMENT,
     NAME VARCHAR(255 ),
     Number_Of_Members INTEGER,
     PRIMARY KEY (RT)
@@ -29,7 +29,7 @@ ADD FOREIGN KEY (Racing_Team_RT) REFERENCES Racing_Team(RT);
 
 
 CREATE TABLE Racing_Car(
-    RC INTEGER AUTO_INCREMENT NOT NULL,
+    RC INTEGER AUTO_INCREMENT ,
     power INTEGER,
     color VARCHAR (255),
     PRIMARY KEY (RC)
@@ -37,6 +37,7 @@ CREATE TABLE Racing_Car(
 );
 ALTER TABLE Racing_Car 
 ADD Racing_Team_RT INTEGER;
+
 ALTER TABLE Racing_Car 
 ADD FOREIGN KEY(Racing_Team_RT) REFERENCES Racing_Team(RT);
 
@@ -89,7 +90,7 @@ CREATE TABLE Engineer(
     PRIMARY KEY (Eng)
 );
 
---create Assembler table
+-- create Assembler table
 create table Assembler (
 Assem Integer PRIMARY key,
 Mechanic_Mech Integer
@@ -190,7 +191,7 @@ PRIMARY key (Car_Tuners_Tun,Racing_Car_RC)
 ALTER TABLE Modify 
 Add FOREIGN key (Car_Tuners_Tun) REFERENCES Car_Tuners(Tun);
 
-ALTER TABLE 
+ALTER TABLE Modify
 Add FOREIGN KEY (Racing_Car_RC) REFERENCES Racing_Car (RC);
 
 --create adjust table
