@@ -35,6 +35,10 @@ CREATE TABLE Racing_Car (
     PRIMARY KEY (RC)
     
 );
+ALTER TABLE Racing_Car 
+ADD Racing_Team_RT INTEGER;
+ALTER TABLE Racing_Car 
+ADD FOREIGN KEY(Racing_Team_RT) REFERENCES Racing_Team(RT);
 
 ALTER TABLE Racing_Driver
 ADD Racing_Car_RC INTEGER NOT NULL;
