@@ -28,7 +28,7 @@ ADD FOREIGN KEY (Racing_Team_RT) REFERENCES Racing_Team(RT);
 
 
 
-CREATE TABLE Racing_Car (
+CREATE TABLE Racing_Car(
     RC INTEGER AUTO_INCREMENT NOT NULL,
     power INTEGER,
     color VARCHAR (255),
