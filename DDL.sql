@@ -46,7 +46,11 @@ ADD Racing_Car_RC INTEGER NOT NULL;
 ALTER TABLE Racing_Driver
 ADD FOREIGN KEY (Racing_Car_RC) REFERENCES Racing_Car(RC);
 
-
-
+CREATE TABLE Car_Manufacturar(
+    Manu Integer ,
+    Mname VARCHAR(255) ,
+    Country VARCHAR(3) ,
+    PRIMARY KEY (Manu)
+  );
 
 
