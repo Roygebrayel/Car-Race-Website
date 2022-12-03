@@ -148,12 +148,58 @@ ALTER TABLE Participate
 
  --create the Organization TABLE
  create Table organization(
-    Races_R INTEGER,
-    Race_Manager_Mgmt INTEGER,
-    Tv_Broadcaster_TV INTEGER,
-    Races_Duration_Start_Time INTEGER,
-    Races_Duration_End_time INTEGER,
+    Races_R INTEGER NOT NULL,
+    Race_Manager_Mgmt INTEGER NOT NULL,
+    Tv_Broadcaster_TV INTEGER NOT NULL,
+    Races_Duration_Start_Time INTEGER not NULL,
+    Races_Duration_End_time INTEGER not null,
+
+    Primary KEY (Races_R,
+    Race_Manager_Mgmt,
+    Tv_Broadcaster_TV ,
+    Races_Duration_Start_Time,
+    Races_Duration_End_time)
  );
+
+-- adding all primary keys into the organization (your version of adding primary keys into mukhtar)
+
+
+-- ALTER TABLE organization
+-- ADD CONSTRAINT organization_PK Primary KEY (Races_R,
+--     Race_Manager_Mgmt,
+--     Tv_Broadcaster_TV ,
+--     Races_Duration_Start_Time,
+--     Races_Duration_End_time);
+
+
+
+--altering the table organization and adding organization_Races_FK
+ALTER TABLE organization 
+    ADD organization_Races_FK INTEGER;
+
+    ALTER TABLE organization
+ ADD FOREIGN KEY (organization_Races_FK) REFERENCES Races(R);
+
+ --altering the table organization and adding organization_Tv_Broadcaster_FK 
+
+ ALTER TABLE organization 
+    ADD organization_Tv_Broadcaster_FK INTEGER;
+
+ ALTER TABLE organization
+ ADD FOREIGN KEY (organization_Tv_Broadcaster_FK) REFERENCES Tv_Broadcaster(TV_ID);
+
+ --altering the table organization and adding organization_Race_Manager_FK
+
+
+ ALTER TABLE organization 
+    ADD organization_Race_Manager_FK INTEGER;
+
+     ALTER TABLE organization
+ ADD FOREIGN KEY (organization_Race_Manager_FK) REFERENCES Race_Manager(Mgmt);
+
+
+
+
 
 
 
