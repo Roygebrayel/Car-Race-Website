@@ -16,8 +16,8 @@ CREATE TABLE Race_court (
 );
 
 CREATE TABLE Duration (
-    Start_Time INTEGER,
-    End_Time INTEGER,
+    Start_Time INTEGER NOT NULL,
+    End_Time INTEGER NOT NULL,
     PRIMARY KEY (Start_Time,End_Time)
 );
 
