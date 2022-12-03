@@ -128,5 +128,32 @@ ADD Participate_Period_FK INTEGER;
 ALTER TABLE Participate
  ADD FOREIGN KEY (Participate_Period_FK) REFERENCES Period_Table(Period_ID);
 
+ --creating the Race_Manager table
+
+ CREATE table Race_Manager(
+    Mgmt INTEGER AUTO_INCREMENT UNIQUE NOT NULL,
+    Manager_Name INTEGER,
+    PRIMARY KEY (Mgmt)
+ );
+
+ --creating the Tv_Broadcaster table
+
+ CREATE TABLE Tv_Broadcaster(
+    TV_ID INTEGER NOT NULL UNIQUE AUTO_INCREMENT,
+    TV_Network VARCHAR(255),
+
+    PRIMARY key (TV_ID)
+
+ );
+
+ --create the Organization TABLE
+ create Table organization(
+    Races_R INTEGER,
+    Race_Manager_Mgmt INTEGER,
+    Tv_Broadcaster_TV INTEGER,
+    Races_Duration_Start_Time INTEGER,
+    Races_Duration_End_time INTEGER,
+ );
+
 
 
