@@ -1,3 +1,9 @@
+
+<?php
+include_once
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,13 +20,16 @@
         <div class="container">
             <div class="title">Registration</div>
             <div class="content">
-                <form action="#">
+                <form action="Driver.php" method="post">
                     <div class="user-details">
                         <div class="input-box">
                             <span class="details">Full Name</span>
-                            <input type="text" placeholder="Enter your name" required>
+                            <input type="text" name="fullName" placeholder="Enter your name" required>
                         </div>
-                        <div class="input-box">
+                        <div class="button">
+                            <input type="submit" value="fullName">
+                        </div>
+                        <!-- <div class="input-box">
                             <span class="details">Username</span>
                             <input type="text" placeholder="Enter your username" required>
                         </div>
@@ -68,11 +77,11 @@
                     <div class="button">
                         <input type="submit" value="Register">
                     </div>
-                </form>
+                 
             </div>
         </div>
+    -->
     
-    
-
+</form>
 </body>
 </html>
