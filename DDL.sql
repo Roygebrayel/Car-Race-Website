@@ -46,7 +46,7 @@ ADD Racing_Car_RC INTEGER NOT NULL;
 
 ALTER TABLE Racing_Driver
 ADD FOREIGN KEY (Racing_Car_RC) REFERENCES Racing_Car(RC);
-
+ -- no errors till this line
 CREATE TABLE Car_Manufacturar(
     Manu Integer  ,
     Mname VARCHAR(255)  ,
@@ -60,15 +60,6 @@ ADD car_manufacturar_Manu INTEGER;
 
  ALTER TABLE Racing_Car
 ADD FOREIGN KEY (car_manufacturar_Manu) REFERENCES Car_Manufacturar(Manu);
-
-ALTER TABLE Racing_Car
-ADD car_manufacturar_Mname INTEGER;
-
-
--- bug problem
-
- ALTER TABLE Racing_Car
-ADD FOREIGN KEY (car_manufacturar_Mname) REFERENCES Car_Manufacturar(Mname);
 
 CREATE Table Mechanic (
     Mech INTEGER AUTO_INCREMENT ,
@@ -84,12 +75,8 @@ ADD Racing_Team_RT INTEGER;
 ALTER TABLE Mechanic
 ADD FOREIGN KEY (Racing_Team_RT) REFERENCES Racing_Team(RT);
 
-CREATE TABLE Engineer(
-    
-    Eng INTEGER AUTO_INCREMENT NOT NULL UNIQUE COMMENT "TEST",
-    PRIMARY KEY (Eng)
-);
 
+-- no error till this line
 -- create Assembler table
 create table Assembler (
 Assem Integer PRIMARY key,
@@ -170,11 +157,7 @@ ADD FOREIGN KEY(Engineer_Eng) REFERENCES Engineer(Eng);
 
 ALTER table Engine 
 ADD FOREIGN KEY (car_manufacturar_Manu) REFERENCES Car_Manufacturar(Manu);
-
-ALTER TABLE Engine 
-ADD FOREIGN key (car_manufacturar_Mname) REFERENCES Car_Manufacturar(Mname);
-
-
+-- no error till this line
 --create Car_Tuners table
 CREATE TABLE Car_Tuners(
 Tun INTEGER PRIMARY key
@@ -216,10 +199,7 @@ Add FOREIGN KEY (Racing_Car_RC) REFERENCES Racing_Car(RC);
 
 ALTER TABLE Adjust
 Add FOREIGN KEY (Mechanic_Mech) REFERENCES Mechanic(Mech);
-
-
-
-
+-- no errors till this line
 
 CREATE TABLE Races (
     R INTEGER AUTO_INCREMENT UNIQUE,
@@ -268,7 +248,7 @@ CREATE TABLE Registration (
     PRIMARY KEY (R,email)
 
 );
-
+-- no error till this line
 --altering the table registration and adding the column Races_R
 
 ALTER TABLE Registration
@@ -294,7 +274,7 @@ ADD Races_Duration_End_time INTEGER;
 
 ALTER TABLE Registration
 ADD FOREIGN KEY (Races_Duration_Start_Time,Races_Duration_End_time) REFERENCES Races(Duration_Start_Time,Duration_End_time);
-
+-- no error till this line
 --creating the Period_Table
 create table Period_Table(
     Period_ID INTEGER AUTO_INCREMENT UNIQUE NOT NULL,
@@ -309,10 +289,10 @@ create table Period_Table(
 
 CREATE TABLE Participate(
     Racing_driver_RD INTEGER AUTO_INCREMENT UNIQUE NOT NULL,
-    Races_R INTEGER AUTO_INCREMENT UNIQUE NOT NULL,
-    Period_Period INTEGER AUTO_INCREMENT UNIQUE NOT NULL,
-    Races_Duration_Start_Time INTEGER AUTO_INCREMENT UNIQUE NOT NULL,
-    Races_Duration_End_time INTEGER AUTO_INCREMENT UNIQUE NOT NULL,
+    Races_R INTEGER ,
+    Period_Period INTEGER  ,
+    Races_Duration_Start_Time INTEGER ,
+    Races_Duration_End_time INTEGER,
 
     PRIMARY KEY (Racing_driver_RD ,
     Races_R ,
@@ -382,7 +362,7 @@ ALTER TABLE Participate
     Races_Duration_Start_Time,
     Races_Duration_End_time)
  );
-
+-- no error till this line
 -- adding all primary keys into the organization (your version of adding primary keys into mukhtar)
 
 
@@ -392,8 +372,6 @@ ALTER TABLE Participate
 --     Tv_Broadcaster_TV ,
 --     Races_Duration_Start_Time,
 --     Races_Duration_End_time);
-
--- roy's work (for testing)
 
 --altering the table organization and adding organization_Races_FK
 ALTER TABLE organization 
@@ -418,3 +396,25 @@ ALTER TABLE organization
 
      ALTER TABLE organization
  ADD FOREIGN KEY (organization_Race_Manager_FK) REFERENCES Race_Manager(Mgmt);
+
+
+create table Manager(
+Mng Integer,
+NAME VARCHAR(255), 
+Racing_Team_RT Integer,
+Primary key (Mng),
+FOREIGN key (Racing_Team_RT) REFERENCES Racing_Team (RT)
+);
+
+CREATE TABLE Repair(
+Mechanic_Mech Integer,
+Racing_Car_RC Integer,
+primary key (Mechanic_Mech,Racing_Car_RC)
+);
+
+ALTER TABLE Repair
+Add FOREIGN key(Mechanic_Mech) REFERENCES Mechanic(Mech);
+
+ALTER TABLE Repair
+ADD FOREIGN key (Racing_Car_RC) REFERENCES Racing_Car(Rc);
+ -- no errors
