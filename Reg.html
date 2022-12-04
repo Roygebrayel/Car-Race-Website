@@ -1,38 +1,37 @@
-
-<?php
-include_once
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Registration.css">
     <title>Document</title>
+    <link rel="stylesheet" href="Driver.php">
+
 </head>
+
 <body>
     
-    
-   
-        <div class="container">
-            <div class="title">Registration</div>
-            <div class="content">
-                <form action="Driver.php" method="post">
-                    <div class="user-details">
-                        <div class="input-box">
-                            <span class="details">Full Name</span>
-                            <input type="text" name="fullName" placeholder="Enter your name" required>
-                        </div>
+
+
+    <div class="container">
+        <div class="title">Registration</div>
+        <div class="content">
+            <form action="Driver.php" method="POST">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" name="fullName" placeholder="Enter your name" required>
                         <div class="button">
-                            <input type="submit" value="fullName">
-                        </div>
-                        <!-- <div class="input-box">
+                            <input type="submit" value="Register">
+                    </div>
+
+                    <!-- <div class="input-box">
                             <span class="details">Username</span>
                             <input type="text" placeholder="Enter your username" required>
                         </div>
+                        
                         <div class="input-box">
                             <span class="details">Email</span>
                             <input type="text" placeholder="Enter your email" required>
@@ -81,7 +80,8 @@ include_once
             </div>
         </div>
     -->
-    
-</form>
+
+            </form>
 </body>
+
 </html>

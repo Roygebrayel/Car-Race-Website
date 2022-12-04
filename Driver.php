@@ -5,6 +5,7 @@ $password = "";
 $dbname = "carrace";
 $fullName = $_POST['fullName'];
 
+
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
@@ -13,7 +14,7 @@ die("Connection failed: " . mysqli_connect_error());
 }
 
 $sql = "INSERT INTO registration (fullName)
-VALUES ('$fullName')";
+VALUES ('tete')";
 
 if (mysqli_query($conn, $sql)) {
 echo "New record created successfully";
