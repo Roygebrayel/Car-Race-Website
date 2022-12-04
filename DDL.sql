@@ -263,9 +263,9 @@ ADD FOREIGN KEY (Race_Court_RC) REFERENCES Race_court (Rc);
 
 CREATE TABLE Registration (
     R INTEGER AUTO_INCREMENT UNIQUE NOT NULL,
-    email VARCHAR (255) AUTO_INCREMENT UNIQUE NOT NULL,
+    email VARCHAR (255),
     RegName VARCHAR (255),
-    PRIMARY KEY Registration_PK(R,email)
+    PRIMARY KEY (R,email)
 
 );
 
