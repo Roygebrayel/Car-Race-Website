@@ -1,8 +1,10 @@
 -- Active: 1670154204282@@127.0.0.1@3306@carrace
+
+-- AN EXAMPLE OF A TABLE THAT COULD INSERT A VALUE INTO A TABLE
+
+
 CREATE Table registration(
-    fullName VARCHAR(255),
-    PRIMARY KEY (fullName)
+    fullName VARCHAR(255)
+    
 );
 
-INSERT INTO registration (fullName)
-VALUES ('roy');
