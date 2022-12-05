@@ -1,10 +1,12 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "NewPassword";
-$dbname = "carrace";
-$fullName = $_POST['fullName'];
-$lastName = $_POST['lastName'];
+$password = "";
+$dbname = "test";
+$Race_id = $_POST['Race_id'];
+$Name = $_POST['Name'];
+$Email = $_POST['Email'];
+
 
 
 // Create connection
@@ -13,10 +15,8 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
 die("Connection failed: " . mysqli_connect_error());
 }
-$sql = "INSERT INTO Registration (fullName,lastName)
-VALUES ('$fullName','$lastName')";
-// $sql1 = "INSERT INTO registration (lastName)
-// VALUES ('$lastName')";
+$sql = "INSERT INTO Registration (R,RegName,email)
+VALUES ('$Race_id','$Name','$Email')";
 
 if (mysqli_query($conn, $sql)) {
 echo "New record created successfully";
