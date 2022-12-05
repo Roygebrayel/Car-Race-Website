@@ -36,8 +36,8 @@ ADD FOREIGN KEY (Racing_Team_RT) REFERENCES Racing_Team(RT);
 CREATE TABLE Racing_Car(
     RC INTEGER AUTO_INCREMENT ,
     VIN INTEGER,
-    cartype VARCHAR,
-    power INTEGER,
+    cartype VARCHAR(255),
+    carpower INTEGER,
     color VARCHAR (255),
     PRIMARY KEY (RC)
     

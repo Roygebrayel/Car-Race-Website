@@ -1,5 +1,6 @@
 <?php
 // defining variables of Racing Driver
+
 $servername = "localhost";
 $username = "root";
 $password = "NewPassword";
@@ -15,26 +16,43 @@ $phone = $_POST['phone'];
 $VIN = $_POST['vin'];
 $cartype = $_POST['cartype'];
 $color = $_POST['color'];
-$power = $_power['power'];
+$carpower = $_POST['carpower'];
 
 
 // Create connection
+
 $conn = mysqli_connect($servername, $username, $password, $dbname);
+
 // Check connection
+
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
+
+//writing the sql quereus
+
 $sql = "INSERT INTO Racing_Driver (fullName,rk,email,phone,pass)
 VALUES ('$fullName','$Rank','$email','$phone','$pass')";
 
-$sql2 = "INSERT INTO Racing_Car (fullName,rk,email,phone,pass)
-VALUES ('$VIN','$cartype','$power','$color')";
+$sql2 = "INSERT INTO Racing_Car (VIN,cartype,carpower,color)
+VALUES ('$VIN','$cartype','$carpower','$color')";
+
+//check quereus
 
 
-if (mysqli_query($conn, $sql,$sql2)) {
-    echo "New record created successfully";
+if (mysqli_query($conn, $sql)) {
+    echo "New record in Racing Driver table created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
+
+if (mysqli_query($conn, $sql2)) {
+    echo "<br>" . "New record in Racing Car table created successfully";
+} else {
+    echo "Error: " . $sql2 . "<br>" . mysqli_error($conn);
+}
+
+//closing the connection
+
 
 mysqli_close($conn);
