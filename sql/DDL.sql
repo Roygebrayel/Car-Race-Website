@@ -363,15 +363,7 @@ ALTER TABLE Participate
     Races_Duration_End_time)
  );
 -- no error till this line
--- adding all primary keys into the organization (your version of adding primary keys into mukhtar)
 
-
--- ALTER TABLE organization
--- ADD CONSTRAINT organization_PK Primary KEY (Races_R,
---     Race_Manager_Mgmt,
---     Tv_Broadcaster_TV ,
---     Races_Duration_Start_Time,
---     Races_Duration_End_time);
 
 --altering the table organization and adding organization_Races_FK
 ALTER TABLE organization 
