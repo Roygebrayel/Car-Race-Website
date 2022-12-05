@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "NewPassword";
 $dbname = "carrace";
 $fullName = $_POST['fullName'];
 
