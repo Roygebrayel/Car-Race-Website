@@ -1,4 +1,4 @@
--- Active: 1669894427276@@127.0.0.1@3306@carrace
+-- Active: 1670246167553@@127.0.0.1@3306@carrace
 
 
 
@@ -6,6 +6,9 @@ CREATE table Racing_Driver (
     RD  INTEGER AUTO_INCREMENT, 
     FN VARCHAR (255),
     rk Integer,
+    email VARCHAR(255),
+    phone INTEGER,
+
     PRIMARY KEY (RD)
     
 );

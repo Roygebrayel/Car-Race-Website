@@ -4,30 +4,24 @@ $username = "root";
 $password = "NewPassword";
 $dbname = "carrace";
 $fullName = $_POST['fullName'];
-$lastName = $_POST['lastName'];
+$Rank = $_POST['Rank'];
+$email = $_POST['email'];
 
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
 if (!$conn) {
-die("Connection failed: " . mysqli_connect_error());
+    die("Connection failed: " . mysqli_connect_error());
 }
-$sql = "INSERT INTO registration (fullName,lastName)
-VALUES ('$fullName','$lastName')";
-// $sql1 = "INSERT INTO registration (lastName)
-// VALUES ('$lastName')";
+$sql = "INSERT INTO Racing_driver (fullName,Rank,Email)
+VALUES ('$fullName','$lastName',$email)";
+
 
 if (mysqli_query($conn, $sql)) {
-echo "New record created successfully";
+    echo "New record created successfully";
 } else {
-echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
-
-// if (mysqli_query($conn, $sql1)) {
-//     echo "New record created successfully";
-//     } else {
-//     echo "Error: " . $sql1 . "<br>" . mysqli_error($conn);
-//     }
 
 mysqli_close($conn);
