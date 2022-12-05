@@ -4,10 +4,12 @@
 
 CREATE table Racing_Driver ( 
     RD  INTEGER AUTO_INCREMENT, 
-    FN VARCHAR (255),
+    fullName VARCHAR (255),
     rk Integer,
     email VARCHAR(255),
     phone INTEGER,
+    pass VARCHAR(255),
+
 
     PRIMARY KEY (RD)
     

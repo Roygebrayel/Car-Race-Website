@@ -6,6 +6,8 @@ $dbname = "carrace";
 $fullName = $_POST['fullName'];
 $Rank = $_POST['Rank'];
 $email = $_POST['email'];
+$pass = $_POST['pass'];
+$phone = $_POST['phone'];
 
 
 // Create connection
@@ -14,8 +16,8 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-$sql = "INSERT INTO Racing_driver (fullName,Rank,Email)
-VALUES ('$fullName','$lastName',$email)";
+$sql = "INSERT INTO Racing_Driver (fullName,rk,email,phone,pass)
+VALUES ('$fullName','$Rank','$email','$phone','$pass')";
 
 
 if (mysqli_query($conn, $sql)) {
