@@ -4,7 +4,8 @@
 
 
 CREATE Table registration(
-    fullName VARCHAR(255)
+    fullName VARCHAR(255),
+    lastName VARCHAR(255)
     
 );
 
