@@ -4,10 +4,12 @@
 
 CREATE table Racing_Driver ( 
     RD  INTEGER AUTO_INCREMENT, 
-    FN VARCHAR (255),
+    fullName VARCHAR (255),
     rk Integer,
     email VARCHAR(255),
     phone INTEGER,
+    pass VARCHAR(255),
+
 
     PRIMARY KEY (RD)
     
@@ -33,7 +35,9 @@ ADD FOREIGN KEY (Racing_Team_RT) REFERENCES Racing_Team(RT);
 
 CREATE TABLE Racing_Car(
     RC INTEGER AUTO_INCREMENT ,
-    power INTEGER,
+    VIN INTEGER,
+    cartype VARCHAR(255),
+    carpower INTEGER,
     color VARCHAR (255),
     PRIMARY KEY (RC)
     
@@ -167,17 +171,17 @@ Tun INTEGER PRIMARY key
 );
 
 --create Modify table
-CREATE TABLE Modify(
+CREATE TABLE Modifyy(
 Car_Tuners_Tun INTEGER,
 Racing_Car_RC Integer,
 PRIMARY key (Car_Tuners_Tun,Racing_Car_RC)
 );
 
 --adding foreign keys to Modify table
-ALTER TABLE Modify 
+ALTER TABLE Modifyy
 Add FOREIGN key (Car_Tuners_Tun) REFERENCES Car_Tuners(Tun);
 
-ALTER TABLE Modify
+ALTER TABLE Modifyy
 Add FOREIGN KEY (Racing_Car_RC) REFERENCES Racing_Car (RC);
 
 --create adjust table
