@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration for watching the race</title>
+	<link rel="stylesheet" href="race.css">
+</head>
+<body>
+    <form action="race.php" method="post"> 
+<div class="wrapper">
+    <div class="title">
+      Registration for watching the race
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label> Name</label>
+          <input type="text" class="input" name="name"placeholder="Enter your name"required>
+       </div>  
+      
+      
+        <div class="inputfield">
+          <label>Gender</label>
+          <div class="custom_select"name="Gender">
+            <select>
+              <option value="">Select</option>
+              <option value="male" name="Gender">Male</option>
+              <option value="female"name="Gender">Female</option>
+            </select>
+          </div>
+       </div> 
+        <div class="inputfield">
+          <label>Email Address</label>
+          <input type="email" class="input" name="email"placeholder="Enter your email">
+       </div> 
+      <div class="inputfield">
+          <label>Phone Number</label>
+          <input type="number" class="input" name="phone"placeholder="Enter your number">
+       </div> 
+      <div class="inputfield">
+          <label>Address</label>
+        <input type="text "class="textarea"name="address" placeholder="enter your address">
+       </div> 
+      
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Register" class="btn">
+      </div>
+    </div>
+</div>	
+    </form>
+</body>
+</html>
