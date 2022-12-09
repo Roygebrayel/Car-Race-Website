@@ -9,4 +9,5 @@ Deliverables:
 -----3 select( 1 simple, 2 with aggregation function or arithmetic operations...)
 -----1 insert
 -----2 update (1 normal , 1 with condition).
+
 -----4 complex(including join between tables).
