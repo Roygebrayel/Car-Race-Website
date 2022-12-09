@@ -37,6 +37,11 @@ VALUES ('$fullName','$Rank','$email','$phone','$pass')";
 $sql2 = "INSERT INTO Racing_Car (VIN,cartype,carpower,color)
 VALUES ('$VIN','$cartype','$carpower','$color')";
 
+
+$RD ="SELECT RD FROM table Racing_Driver";
+$updateName = "UPDATE racing_driver SET fullName = '$fullName'
+WHERE RD=$RD;";
+
 //check quereus
 
 
