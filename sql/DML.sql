@@ -6,7 +6,7 @@ SET fullName = 'roy'
 where Rd >5;
 --@block
 UPDATE racing_driver
-SET fullName = 'roy'
+SET fullName = 'abbas'
 WHERE RD=5;
 
 --@block
@@ -15,12 +15,12 @@ VALUES ('Abbas','10','abbashamyeh2004@gmail.com','78908353','NEWPASS');
 
 --@block
 Select VIN from Racing_Car As Car_Vin
-where cartype = 'BMW';
+where cartype = 'ih';
 
 --@block 
 SELECT COUNT(VIN)
 FROM Racing_Car
-WHERE color='RED' and cartype ='AUDI';
+WHERE color='RED' OR cartype ='ih';
 
 --@block
 SELECT VIN, RC ,(VIN + RC) AS RC_VIN
