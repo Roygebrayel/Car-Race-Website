@@ -1,0 +1,12 @@
+Deliverables: 
+-Design Model file generated from the oracle data modeler.
+-Word Document including the following points:
+--Introduction: project description.
+--Include the E/R diagram.
+--Convert the E/R diagram into relational Model
+--Capture the DDL to create the Database.
+--Capture 10 queries with their results as follows:
+-----3 select( 1 simple, 2 with aggregation function or arithmetic operations...)
+-----1 insert
+-----2 update (1 normal , 1 with condition).
+-----4 complex(including join between tables).
