@@ -26,3 +26,13 @@ WHERE color='RED' OR cartype ='ih';
 SELECT VIN, RC ,(VIN + RC) AS RC_VIN
 FROM Racing_Car
 WHERE (VIN + RC)<10;
+
+
+
+--@block
+SELECT RD,VIN FROM Racing_Car
+INNER JOIN racing_driver
+ON Racing_Car.VIN = racing_driver.RD;
+
+
+
