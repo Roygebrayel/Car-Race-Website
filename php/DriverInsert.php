@@ -1,10 +1,13 @@
 <?php
-// defining variables of Racing Driver
+
 
 $servername = "localhost";
 $username = "root";
 $password = "NewPassword";
 $dbname = "carrace";
+
+// defining variables of Racing Driver
+
 $fullName = $_POST['fullName'];
 $Rank = $_POST['Rank'];
 $email = $_POST['email'];
@@ -20,6 +23,7 @@ $color = $_POST['color'];
 $carpower = $_POST['carpower'];
 
 
+
 // Create connection
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -30,13 +34,17 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-//writing the sql quereus
+// writing the sql quereus
 
 $sql = "INSERT INTO Racing_Driver (fullName,rk,email,phone,pass)
 VALUES ('$fullName','$Rank','$email','$phone','$pass')";
 
 $sql2 = "INSERT INTO Racing_Car (VIN,cartype,carpower,color)
 VALUES ('$VIN','$cartype','$carpower','$color')";
+
+
+
+
 
 
 $RD ="SELECT RD FROM table Racing_Driver";

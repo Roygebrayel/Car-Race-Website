@@ -28,7 +28,6 @@ FROM Racing_Car
 WHERE (VIN + RC)<10;
 
 
-
 --@block
 SELECT RD,VIN FROM Racing_Car
 INNER JOIN racing_driver

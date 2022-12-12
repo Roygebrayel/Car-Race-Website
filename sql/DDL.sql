@@ -252,9 +252,8 @@ CREATE TABLE Registration (
     R INTEGER AUTO_INCREMENT UNIQUE NOT NULL,
     email VARCHAR (255),
     RegName VARCHAR (255),
-    Gender VARCHAR(255),
     PNum Integer,
-    Address VARCHAR(255),
+    Reg_Address VARCHAR(255),
     PRIMARY KEY (R,email)
 
 );
