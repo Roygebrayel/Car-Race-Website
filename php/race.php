@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "carrace";
+$dbname = "car_race";
 
 $Name = $_POST['name'];
 $Email = $_POST['email'];
@@ -17,7 +17,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
 die("Connection failed: " . mysqli_connect_error());
 }
-$sql = "INSERT INTO Registration (Name,Email,Phone,Address)
+$sql = "INSERT INTO Registration (RegName,email,PNum,Address)
 VALUES ('$Name','$Email','$phone','$address')";
 
 if (mysqli_query($conn, $sql)) {
