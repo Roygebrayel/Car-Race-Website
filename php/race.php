@@ -17,8 +17,8 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
 die("Connection failed: " . mysqli_connect_error());
 }
-$sql = "INSERT INTO Registration (RegName,email,PNum,Address)
-VALUES ('$Name','$Email','$phone','$address')";
+$sql = "INSERT INTO Registration (RegName,email,PNum)
+VALUES ('$Name','$Email','$phone')";
 
 if (mysqli_query($conn, $sql)) {
 echo "New record created successfully";
