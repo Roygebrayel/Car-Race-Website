@@ -1,14 +1,17 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
-$dbname = "car_race";
+$password = "NewPassword";
+$dbname = "carrace";
+
+// defining variables of registration
+
+
 
 $Name = $_POST['name'];
 $Email = $_POST['email'];
-
-$phone = $_POST['phone'];
-$address = $_POST['address'];
+$Phone = $_POST['phone'];
+$Address = $_POST['address'];
 
 
 // Create connection
@@ -17,8 +20,9 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
 die("Connection failed: " . mysqli_connect_error());
 }
-$sql = "INSERT INTO Registration (RegName,email,PNum)
-VALUES ('$Name','$Email','$phone')";
+$sql = "INSERT INTO Registration (RegName,email,PNum,Reg_Address)
+VALUES ('$Name','$Email','$Phone','$Address')";
+
 
 if (mysqli_query($conn, $sql)) {
 echo "New record created successfully";

@@ -28,11 +28,15 @@ FROM Racing_Car
 WHERE (VIN + RC)<10;
 
 
+--@block
+SELECT RD,RC FROM Racing_Car
+INNER JOIN racing_driver
+ON Racing_Car.RC = racing_driver.RD;
+
 
 --@block
-SELECT RD,VIN FROM Racing_Car
-INNER JOIN racing_driver
-ON Racing_Car.VIN = racing_driver.RD;
 
+INSERT INTO  engineer(Eng) VALUES (9);
+INSERT INTO assembler(Assem) VALUES (6);
 
-
+INSERT INTO  mechanic (MechName,salary_Per_Hour) VALUES ('roy','20');
