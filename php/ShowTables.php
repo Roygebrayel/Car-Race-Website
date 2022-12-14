@@ -13,6 +13,10 @@ die("Connection failed: " . mysqli_connect_error());
 }
 
 $sql = "SELECT RD, fullName, rk FROM racing_driver";
+
+
+
+
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {

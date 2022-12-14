@@ -1,4 +1,4 @@
--- Active: 1670246167553@@127.0.0.1@3306@carrace
+-- Active: 1671019824400@@127.0.0.1@3306@car_race
 
 --@block
 UPDATE racing_driver
@@ -40,3 +40,10 @@ INSERT INTO  engineer(Eng) VALUES (9);
 INSERT INTO assembler(Assem) VALUES (6);
 
 INSERT INTO  mechanic (MechName,salary_Per_Hour) VALUES ('roy','20');
+
+
+--@block
+SELECT Start_Time,End_Time FROM duration 
+INNER JOIN races
+ON duration.Start_Time = races.Duration_Start_Time;
+

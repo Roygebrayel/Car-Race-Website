@@ -1,10 +1,13 @@
 <?php
-// defining variables of Racing Driver
+
 
 $servername = "localhost";
 $username = "root";
 $password = "NewPassword";
 $dbname = "car_race";
+
+// defining variables of Racing Driver
+
 $fullName = $_POST['fullName'];
 $Rank = $_POST['Rank'];
 $email = $_POST['email'];
