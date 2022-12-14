@@ -47,3 +47,15 @@ SELECT Start_Time,End_Time FROM duration
 INNER JOIN races
 ON duration.Start_Time = races.Duration_Start_Time;
 
+--@block
+INSERT INTO car_manufacturar(Manu,Mname,Country) VALUE(7,'maalim','us');
+
+SELECT COUNT(Manu), Country
+FROM Car_Manufacturar
+GROUP BY Country
+ORDER BY COUNT(Manu) DESC;
+
+
+
+
+
