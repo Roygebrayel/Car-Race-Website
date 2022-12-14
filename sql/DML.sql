@@ -48,12 +48,12 @@ INNER JOIN races
 ON duration.Start_Time = races.Duration_Start_Time;
 
 --@block
-INSERT INTO car_manufacturar(Manu,Mname,Country) VALUE(7,'maalim','us');
+INSERT INTO car_manufacturar(Manu,Mname,Country) VALUE(7,'roy','us');
 
 SELECT COUNT(Manu), Country
 FROM Car_Manufacturar
 GROUP BY Country
-ORDER BY COUNT(Manu) DESC;
+ORDER BY Manu;
 
 --@block
 SELECT AVG(Manu), Country
@@ -65,11 +65,11 @@ ORDER BY AVG(Manu) DESC;
 --@block
 
 SELECT MIN(carpower) FROM racing_car
-WHERE racing_car.carpower < 1600;
+WHERE racing_car.carpower < 1600 AND racing_car.carpower>100;
 
 --@block
 SELECT MAX(carpower) FROM racing_car
-WHERE racing_car.carpower < 1600;
+WHERE racing_car.carpower < 1600 AND racing_car.carpower>100;
 
 
 --@block
