@@ -55,7 +55,27 @@ FROM Car_Manufacturar
 GROUP BY Country
 ORDER BY COUNT(Manu) DESC;
 
+--@block
+SELECT AVG(Manu), Country
+FROM Car_Manufacturar
+GROUP BY Country
+ORDER BY AVG(Manu) DESC;
 
+
+--@block
+
+SELECT MIN(carpower) FROM racing_car
+WHERE racing_car.carpower < 1600;
+
+--@block
+SELECT MAX(carpower) FROM racing_car
+WHERE racing_car.carpower < 1600;
+
+
+--@block
+
+SELECT * FROM racing_driver
+WHERE racing_driver.fullName LIKE 'a%';
 
 
 
