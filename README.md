@@ -1,6 +1,6 @@
-#                                                 CAR RACE PROJECT
+# CAR RACE PROJECT
 
-#### this project was created in 15 november published in 16 december
+#### this project was created in 15 november and published in 16 december
 
 
 
