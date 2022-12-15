@@ -19,7 +19,7 @@ also a new language we've learned php that enables us to connect the database in
 
 ### HTML
 
-- we've made 5 HTML pages all of them about registration forms and home page
+- we've made 6 HTML pages all of them about registration forms and home page
 
 ### CSS
 
@@ -31,7 +31,7 @@ also a new language we've learned php that enables us to connect the database in
 
 ### php
 
-- we've added 5 php files about inserting and showing also updating data from our web page into the database
+- we've added 6 php files about inserting,showing,updating and deleting data from our web page into the database
 
 - we've also added a cookie php file
 
