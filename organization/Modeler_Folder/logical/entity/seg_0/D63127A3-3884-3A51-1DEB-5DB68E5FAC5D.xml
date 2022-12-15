@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D63127A3-3884-3A51-1DEB-5DB68E5FAC5D" name="Electronic">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>3004A90B-FBEA-3E39-A87E-1ED310C4863F</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Elec" id="935F880D-F3A8-AE18-36E9-A56E52F6B02F">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>28C0E299-F4CF-FFF7-749D-8521427B2AFC</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Eng" id="BC138B15-0042-4C1B-8D59-ED5E4D4C8E04">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>5C7CF099-9282-B902-8A34-2745F66C4F2A</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>6FD0679D-5A7E-F65E-6990-186E9062E983</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<referedAttribute>B052042B-8681-01BA-9B5B-860FB5A767B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0FC34F18-EB20-C090-FBCA-D7A0891F1601" name="Electronic PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>A0D58980-712A-77EC-18BB-0B0F8AB0C1FA</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>935F880D-F3A8-AE18-36E9-A56E52F6B02F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

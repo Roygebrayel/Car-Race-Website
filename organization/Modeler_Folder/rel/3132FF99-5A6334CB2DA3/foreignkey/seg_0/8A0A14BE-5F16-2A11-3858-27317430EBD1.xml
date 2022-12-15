@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8A0A14BE-5F16-2A11-3858-27317430EBD1" containerWithKeyObject="6ABA0441-EA0C-F872-B7D9-5E863757A4A8" localFKIndex="8AB114CE-359A-B672-D36F-6FF5BE83650E" name="Modify_Car_Tuners_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>12DCEE65-B168-119C-FFBD-C9977DD70BCD</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>36A7C4D5-AFE1-4139-FC5F-CFC9B8DC2247</importedID>
+<referredTableLongName>Car_Tuners</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>796B2886-107B-B8B6-1FFD-B1A634A3161D</referredTableID>
+<keyObject>A8BB809C-CD3B-02FE-D96E-854C6DC558B0</keyObject>
+<referredKeyID>A8BB809C-CD3B-02FE-D96E-854C6DC558B0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Tun</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

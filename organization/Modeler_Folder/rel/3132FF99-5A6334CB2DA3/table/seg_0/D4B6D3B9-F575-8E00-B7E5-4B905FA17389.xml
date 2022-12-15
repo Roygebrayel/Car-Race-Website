@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4B6D3B9-F575-8E00-B7E5-4B905FA17389" name="Electronic">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>D63127A3-3884-3A51-1DEB-5DB68E5FAC5D</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>2FC72BFE-2CDB-3CE8-2B08-1919E2D712B5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Elec" id="3560545A-5201-0E5F-1261-7DD42E157BB7">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>935F880D-F3A8-AE18-36E9-A56E52F6B02F</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>46DE22E8-FA5A-8905-BFD7-D97BEEA506B0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Engineer_Eng" id="4BB192B7-2A9F-0610-FE0B-3DE71B0C7EA0">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>BC138B15-0042-4C1B-8D59-ED5E4D4C8E04</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>50544A17-7EE2-3436-54C4-02B15E119A3F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E314E6E9-51A9-86BF-5CB1-565E215A0823" referredColumn="9E749414-5688-015A-3BB8-F2CA47B91C5B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52F72D51-0255-42A6-AA8F-B266B1B5E6D2" name="Electronic_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>0FC34F18-EB20-C090-FBCA-D7A0891F1601</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>2EC5DFC5-78DD-603C-6C2E-7FC35F4B9364</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3560545A-5201-0E5F-1261-7DD42E157BB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4FBD62B-BBAC-DCE4-0FD4-B8482C8E7430" name="Electronic__IDX">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>0C8CE5FF-EE52-D0C0-F4A5-E55DCA50228B</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BB192B7-2A9F-0610-FE0B-3DE71B0C7EA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2909BED3-F8D8-684C-0AD9-33B96AE9A319" name="Electronic_Engineer_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>5C7CF099-9282-B902-8A34-2745F66C4F2A</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BB192B7-2A9F-0610-FE0B-3DE71B0C7EA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

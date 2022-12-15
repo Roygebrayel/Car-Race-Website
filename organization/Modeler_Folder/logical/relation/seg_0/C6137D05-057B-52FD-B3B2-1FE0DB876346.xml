@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Racing driver Racing Car FK" directorySegmentName="seg_0" id="C6137D05-057B-52FD-B3B2-1FE0DB876346">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>789C100D-11A4-4E1C-C649-611436BF1C1E</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>7BCC3D3F-797F-C651-A85E-9812912E918B</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>car id</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5EBFEAF2-3905-51CE-185E-0A39CF1FAF39</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>25958BA4-4AA4-F880-FCFE-09626E652A63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

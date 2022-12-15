@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EBFEAF2-3905-51CE-185E-0A39CF1FAF39" name="Racing Car">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>EA1F2766-2824-2436-787C-E1980E25123C</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Car</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RC" id="5A86C665-CA25-CBA2-E80A-FA338800AF47">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>B2F4F63F-87A8-A7FF-F229-3130758F7989</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POWER" id="44C3D19F-DF4E-2E8D-ECAE-6ECE39BFFA6F">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>1496646D-918F-6AA4-239A-008B5BA208B8</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Color" id="AE2A4110-8F10-81B0-6538-042C43FCDA76">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>C95393DD-73A1-A22E-34A9-57720C662C14</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Manu" id="0A692B6D-F46A-6A63-5163-3D67C5A06958">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>15A3E708-F095-7D26-69D8-EF77B21A09F1</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>41394887-C784-0154-8B57-AEEA46669B65</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<referedAttribute>9372946D-0F06-6876-5379-F815CFF9A03A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manufacturer name" id="4EC64151-9CEC-69EC-0C5E-A5451A45B08C">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>15A3E708-F095-7D26-69D8-EF77B21A09F1</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>0E5A2BFF-EC1A-848C-49AE-BFACDAE3E752</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<referedAttribute>4B71A3A4-0B9B-565E-D374-6F94148F8DF5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RT " id="D7DC98C6-62E9-8AB6-E06F-1DD4BE84946F">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>516570E0-2F0C-FC8B-07FA-DD6969BC850C</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>9447B927-3118-954E-7F5B-BD59CE857AF1</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<referedAttribute>41914A80-9CFE-31E1-FC3A-0CB449065C3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BCC3D3F-797F-C651-A85E-9812912E918B" name="Racing Car PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>F13CB629-714E-7A64-CF29-8862551D3E27</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A86C665-CA25-CBA2-E80A-FA338800AF47</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

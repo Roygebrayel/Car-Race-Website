@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mechanic Racing Team FK" directorySegmentName="seg_0" id="CACEB249-A398-681A-6985-F61E1DEC3559">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>167304FC-9DF9-8D0B-7137-739F7F2A4F47</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>56476E6E-CACB-F191-09E9-F84C637D5119</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7A7756D4-806D-2A34-4BF1-23F9C229B790</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>49BC4E3C-B53B-A1DC-DEC0-3230EAF88513</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

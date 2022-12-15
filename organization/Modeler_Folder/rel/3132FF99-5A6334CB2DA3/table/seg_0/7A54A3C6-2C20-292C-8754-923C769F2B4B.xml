@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A54A3C6-2C20-292C-8754-923C769F2B4B" name="Duration">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>AD88837C-C782-392B-3B10-3B917B0E0455</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>92E31DD2-9CE0-8CD0-7BC2-DFFA27FB6A1C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Start_Time" id="E06C4CE8-E926-339D-DB68-E0BD6F3618E0">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>DAB0E1AD-EFD1-180D-5542-DF812288C832</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>C828DDED-AEDE-8133-84C5-2129BAC3EFE8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_time" id="2F91ADCD-E1BA-A622-8F7B-E5BEED25DD0A">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>D80E2947-DD5E-EC54-71C0-19EEBEDE17C4</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>8C791CE6-7D23-DAAD-3B45-E125371BF6C1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="728B00BD-CA38-F41A-F42C-5E17FCE56A31" name="Duration_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>455492C2-5A65-511D-5964-8E0176D017F9</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>0C145E5B-4668-A84A-843E-EAE704E1951C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E06C4CE8-E926-339D-DB68-E0BD6F3618E0"/>
+<colUsage columnID="2F91ADCD-E1BA-A622-8F7B-E5BEED25DD0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

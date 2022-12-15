@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E3441B8-ED8A-1213-A49C-365ED6F75C7A" name="Race_court">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>B120735B-CD30-6972-4BE9-806ADD094B78</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>90EB47A8-615C-992E-5435-81F72CDD676A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rc" id="7DD636D7-980E-ACB7-703B-C2408AC11CC8">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>A05C3577-00A6-352E-C36B-9A083652B43F</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>258EE5BD-4707-29ED-409C-94ACB625E8DE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Distance" id="9FB5DF13-4938-EEA5-3423-105A3720726E">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>F1644A51-EFB3-CA2F-A8A9-1C16C47A28EF</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>A5E9CE2D-8CD1-5C9A-862A-3640055774C0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacity" id="D9B9C631-3F06-5D11-1654-84D33D9F6B96">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>4BB6B0EC-F026-16E0-79A2-B7CF5354A445</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>3DCD6930-7CD3-59A0-45EA-5119CB29CC45</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D08C35F-FA43-88D4-D8CB-57DDAAEA6AAD" name="Race_court_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>73E5C865-0611-821F-748F-3EE82CD175F8</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>16960FEA-2A53-C941-B22B-E80A43D23361</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DD636D7-980E-ACB7-703B-C2408AC11CC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

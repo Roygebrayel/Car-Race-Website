@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FD4587C-34FF-090D-BF3D-1BD9991A82DD" name="Gear_Specialist">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>E7626AA6-789C-27FC-B5C1-C52B68523132</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>02AAC592-0F73-549D-C5F2-FA00EC8B0D40</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GEAR" id="23031E95-32ED-0253-9E33-481D9BE4BD59">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>5D90D291-232F-A700-810C-4C04E09439B3</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>74B5E8B2-4A5D-E336-C9EF-85EFE175A62D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Engineer_Eng" id="4F6F8DDD-09E9-4A15-B6B9-432C659C3E9C">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>5B5BA61E-2C95-EDCC-D62F-1F879D61CB93</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>BEA5D572-A372-2CD3-6203-99000DEF1DAD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="552DE50E-FEB1-842D-41A8-FB9F84255C77" referredColumn="9E749414-5688-015A-3BB8-F2CA47B91C5B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5218480-8813-32CF-69AA-683D314FEEDB" name="Gear_Specialist_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>E8759DC3-747A-1DEC-7863-C5E901E2921E</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>27D93F3F-2848-9903-F500-F7B11A13D431</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23031E95-32ED-0253-9E33-481D9BE4BD59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36898CB5-2A75-7C92-A5C3-9503A2825523" name="Gear_Specialist__IDX">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>D7A95A17-7436-A40F-60BA-DF170F445B1E</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F6F8DDD-09E9-4A15-B6B9-432C659C3E9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="865545AC-FA50-BC8D-7191-873D8DD61620" name="Gear_Specialist_Engineer_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>3DC8D44E-81F1-4E40-2A93-F90524DF616B</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F6F8DDD-09E9-4A15-B6B9-432C659C3E9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

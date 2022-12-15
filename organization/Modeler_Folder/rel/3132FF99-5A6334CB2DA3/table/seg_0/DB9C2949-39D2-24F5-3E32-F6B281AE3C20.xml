@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB9C2949-39D2-24F5-3E32-F6B281AE3C20" name="Racing_driver">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>25958BA4-4AA4-F880-FCFE-09626E652A63</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>D99F1E2D-F73F-2E33-4464-6F9FB3078683</importedID>
+<abbreviation>Driver</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RD" id="3FD5AE10-58F5-6541-9F34-BDBF087FEA71">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>51173CA5-76A2-53C7-5A36-17869EBCDD4D</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>083BE21A-3DA5-D49A-71B9-35C4E0C4DC26</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FN" id="F999B212-730D-63BC-E55C-F54353D0B860">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>0AB4DDA3-7AD0-DC56-0FCA-F820120B55E1</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>75453861-5262-98A8-E5E6-5CE5CA01D7AF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rank" id="D6C2966A-C12E-21FE-96E7-9F7A323B71A2">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>5C161E96-35D4-08E8-C96B-89A8F44D0BAC</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>BED2D81D-ACFB-4658-5E07-82B682543597</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Racing_Car_RC" id="1214FC56-DDA4-595B-A74D-E3B3F0AAB6AB">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>D3F61950-948E-05C4-78BA-D787B8403000</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>3039FA0C-056F-3DA3-D188-F647ECFACE22</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57F35ABC-970D-0737-C553-78BF4E1DFBBC" referredColumn="61424F72-725D-9CF3-7AD8-FC65C44558D2"/>
+</associations>
+</Column>
+<Column name="Racing_Team_RT" id="C42F202A-AD41-B0A3-ED4A-0857D819F28E">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>EE593BC3-E07F-5836-C6DE-2284DA56EA16</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>BA5C40DB-C322-C591-6B94-8B3B14783D6E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7ACAD9B-634E-32D6-7486-E99E065915B9" referredColumn="2CBBEE45-5D04-A25F-F388-540CAAF3BB4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E0383D5-6F39-B2C4-7E84-C353DD00AFCD" name="Racing_driver_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>8BE94B45-4EF5-9DBE-EAFA-920D91251A90</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>95232B76-0805-F34A-878E-53573F455051</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FD5AE10-58F5-6541-9F34-BDBF087FEA71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C995900-DA4E-1C47-ECD0-E776B7CBF982" name="Racing_driver__IDX">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>3D6CA5CF-AABD-935E-44EC-CD6E26756894</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1214FC56-DDA4-595B-A74D-E3B3F0AAB6AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D1990FE-2A8F-80A3-56C9-DD345E3BBADA" name="Racing_driver_Racing_Car_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>C6137D05-057B-52FD-B3B2-1FE0DB876346</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1214FC56-DDA4-595B-A74D-E3B3F0AAB6AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FB50121-8D8A-463F-7CE9-31A4916370A9" name="Racing_driver_Racing_Team_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>5B1DAF50-78C9-BB71-08A6-724F54003985</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C42F202A-AD41-B0A3-ED4A-0857D819F28E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

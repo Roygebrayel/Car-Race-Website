@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Participate Period FK" directorySegmentName="seg_0" id="AA47EB8D-DC70-6F5C-012F-55DCDB45E080">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>89E8996B-AB32-705B-67B9-53D0F6AAF047</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>D8F21AE2-1E58-E2C7-DD13-B5C7457A0602</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>896A4F4F-E6F4-C4B8-A6C9-B52CAEBBFCCA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>68A59A94-595C-3B32-0039-238E391459D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

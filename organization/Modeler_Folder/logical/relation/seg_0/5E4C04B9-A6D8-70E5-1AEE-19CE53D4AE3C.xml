@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="break assenbler ASSEMBLER FK" directorySegmentName="seg_0" id="5E4C04B9-A6D8-70E5-1AEE-19CE53D4AE3C">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>3FB1BB19-8C02-B631-8267-86C199A54250</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>3905B8F7-64A3-06D8-4A22-D595D9D1B9A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0AF1D046-2060-A47A-BE14-8E45FAA9E0AC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C1D9F06E-2EB3-A2F2-9F95-E0F22C98BE8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

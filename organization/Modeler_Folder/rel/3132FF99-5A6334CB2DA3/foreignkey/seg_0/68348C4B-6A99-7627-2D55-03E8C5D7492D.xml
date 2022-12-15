@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68348C4B-6A99-7627-2D55-03E8C5D7492D" containerWithKeyObject="B4F3123D-6CA5-585F-6E3B-94CA2C5A3912" localFKIndex="215B7CF8-F613-B44C-52A9-2BCBE1678563" name="Participate_Period_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>AA47EB8D-DC70-6F5C-012F-55DCDB45E080</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>9B34D2F4-AB31-8465-5049-8D1E8F5D4DE7</importedID>
+<referredTableLongName>Period</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6C503254-6C15-1F79-DBCF-CDE02CE33DF0</referredTableID>
+<keyObject>920DB3A4-C0C2-3A02-EEB6-A57B0A6F62B0</keyObject>
+<referredKeyID>920DB3A4-C0C2-3A02-EEB6-A57B0A6F62B0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Period</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

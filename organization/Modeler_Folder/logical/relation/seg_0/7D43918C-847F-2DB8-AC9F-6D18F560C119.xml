@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Engineer mechanic FK" directorySegmentName="seg_0" id="7D43918C-847F-2DB8-AC9F-6D18F560C119">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>B250DA2C-2D52-CCB0-880D-E1CE7332CE87</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>D421AE34-A0C5-88C4-DC47-9321A6FDF89B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>49BC4E3C-B53B-A1DC-DEC0-3230EAF88513</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2DD60FF8-3B8E-E627-674C-05D296F1C217</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
