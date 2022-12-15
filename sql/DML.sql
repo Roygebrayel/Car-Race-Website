@@ -10,6 +10,11 @@ SET fullName = 'abbas'
 WHERE RD=5;
 
 --@block
+UPDATE duration
+SET End_Time = 203476
+WHERE duration.Start_Time<203476;
+
+--@block
 INSERT INTO Racing_Driver (fullName,rk,email,phone,pass)
 VALUES ('Abbas','10','abbashamyeh2004@gmail.com','78908353','NEWPASS');
 

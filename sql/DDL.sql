@@ -386,8 +386,10 @@ ALTER TABLE organization
  ALTER TABLE organization 
     ADD organization_Tv_Broadcaster_FK INTEGER;
 
- ALTER TABLE organization
+     ALTER TABLE organization
  ADD FOREIGN KEY (organization_Tv_Broadcaster_FK) REFERENCES Tv_Broadcaster(TV_ID);
+
+
 
  --altering the table organization and adding organization_Race_Manager_FK
 
@@ -396,12 +398,12 @@ ALTER TABLE organization
     ADD organization_Race_Manager_FK INTEGER;
 
      ALTER TABLE organization
- ADD FOREIGN KEY (organization_Race_Manager_FK) REFERENCES Race_Manager(Mgmt);
+ ADD FOREIGN KEY (organization_Race_Manager_FK) REFERENCES Manager(Mng);
 
 
 create table Manager(
 Mng Integer,
-NAME VARCHAR(255), 
+manager_name VARCHAR(255), 
 Racing_Team_RT Integer,
 Primary key (Mng),
 FOREIGN key (Racing_Team_RT) REFERENCES Racing_Team (RT)
