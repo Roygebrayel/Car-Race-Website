@@ -131,5 +131,3 @@ INSERT INTO race_court (Capacity) VALUES (20);
 
 
 
-
-
