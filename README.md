@@ -44,5 +44,3 @@ also a new language we've learned php that enables us to connect the database in
 
 
 
-
-
