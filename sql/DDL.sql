@@ -53,7 +53,8 @@ ADD Racing_Car_RC INTEGER NOT NULL;
 
 ALTER TABLE Racing_Driver
 ADD FOREIGN KEY (Racing_Car_RC) REFERENCES Racing_Car(RC);
- -- no errors till this line
+
+--  no errors till this line
 CREATE TABLE Car_Manufacturar(
     Manu Integer  ,
     Mname VARCHAR(255)  ,
@@ -198,6 +199,7 @@ Racing_Car_RC,
 Mechanic_Mech );
 
 --adding foreign keys Adjust table
+
 ALTER TABLE Adjust
 Add FOREIGN KEY (Racing_Driver_Rd) REFERENCES Racing_Driver(RD);
 
