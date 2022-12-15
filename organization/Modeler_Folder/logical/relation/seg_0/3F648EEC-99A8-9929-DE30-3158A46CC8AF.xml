@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Engine car manufacturer FK" directorySegmentName="seg_0" id="3F648EEC-99A8-9929-DE30-3158A46CC8AF">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>18835E10-32C4-6F20-D2EE-94FEE21EF339</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>B7AFAA63-AC02-782B-2E7A-A9F1235E5F77</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2090749-ED89-B705-0F21-65B27A7FC599</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>74A0B33B-B7AD-8362-5AE2-8DC17686F4DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

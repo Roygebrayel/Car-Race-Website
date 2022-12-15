@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Chassis Assembler ASSEMBLER FK" directorySegmentName="seg_0" id="32AF7646-00E2-8386-5C99-BC4E9F843492">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>09ACCE61-142A-2754-79A6-B4FC5DA0D71A</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>3905B8F7-64A3-06D8-4A22-D595D9D1B9A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0AF1D046-2060-A47A-BE14-8E45FAA9E0AC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6E6E3AA8-6C06-3CF4-7867-EF0E57C71618</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

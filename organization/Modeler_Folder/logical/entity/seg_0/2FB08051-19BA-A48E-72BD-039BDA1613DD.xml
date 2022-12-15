@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FB08051-19BA-A48E-72BD-039BDA1613DD" name="organization">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>1DB3C2A3-509B-2D38-FE71-19A5285FB7FB</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="R" id="A385836A-06E9-3892-12B6-7B5447E420D0">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>88D0DDFB-5032-51AF-DEB5-ED600F833FB1</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>938ED444-A1AF-2E5B-E66E-DAC07E87D83F</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<referedAttribute>9F21D59D-0B6D-AD1E-4475-BD36C94EDFBC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mgmt" id="0053D58C-72A7-B880-67B1-93B56444EE99">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>BE4230F6-31FB-1D41-A039-0C746121510C</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>9E3F1ECC-E121-2773-2154-044390113ED0</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<referedAttribute>ECF2698D-29C7-C802-FADE-EA6A744284AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TV" id="ED855846-7E53-DEB5-8907-12B2C5FED95A">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>6C9D96CE-246B-BD3A-2898-D18FF3C56A1D</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>E071005E-5F97-47A4-7CB2-318033357F6B</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<referedAttribute>98E371F2-8B59-7125-CDBE-452504FD22C9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start Time" id="EA4BF54F-8BA3-43B1-D2DC-1A13DD3E0063">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>88D0DDFB-5032-51AF-DEB5-ED600F833FB1</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>AAB3773A-119F-35F6-4B9B-5CDD1218D9A1</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<referedAttribute>A07FCA3C-F9E6-713B-2B34-48D8F9DB668E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End time" id="5C09B836-D4F0-691A-BB99-3E3D67612D0A">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>88D0DDFB-5032-51AF-DEB5-ED600F833FB1</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>68FEF79D-111E-F807-DD19-8FCEDA132D9E</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<referedAttribute>A627B713-DD8D-17EF-39F9-E7D065E5C645</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE6F18B4-6486-8E3D-4934-7740EF84ED7F" name="organization PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>408D4C02-5A1C-E008-11D5-97CBDA04BEA1</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A385836A-06E9-3892-12B6-7B5447E420D0</attributeRef>
+<attributeRef>EA4BF54F-8BA3-43B1-D2DC-1A13DD3E0063</attributeRef>
+<attributeRef>5C09B836-D4F0-691A-BB99-3E3D67612D0A</attributeRef>
+<attributeRef>0053D58C-72A7-B880-67B1-93B56444EE99</attributeRef>
+<attributeRef>ED855846-7E53-DEB5-8907-12B2C5FED95A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

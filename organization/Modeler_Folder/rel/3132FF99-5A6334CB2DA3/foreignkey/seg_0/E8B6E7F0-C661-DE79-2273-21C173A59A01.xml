@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8B6E7F0-C661-DE79-2273-21C173A59A01" containerWithKeyObject="B54E65FD-0C1F-F051-7E4B-336EC20477A3" localFKIndex="4DF5AC89-FEAA-B03C-8468-028B582E3064" name="Races_Duration_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>E3139A96-3C55-6B87-1E54-61BAF7FA3DE1</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>F47532B9-0EEF-38DB-4281-3A6A81048552</importedID>
+<referredTableLongName>Duration</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7A54A3C6-2C20-292C-8754-923C769F2B4B</referredTableID>
+<keyObject>728B00BD-CA38-F41A-F42C-5E17FCE56A31</keyObject>
+<referredKeyID>728B00BD-CA38-F41A-F42C-5E17FCE56A31</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Start_Time,End_time</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

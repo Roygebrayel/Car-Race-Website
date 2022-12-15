@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="project3" id="BCF5CE54-B44D-549C-41F7-450E99D411D7" version="3.5">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:00:08 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BCF5CE54-B44D-549C-41F7-450E99D411D7</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2F06171D-CA46-A24D-6458-D319B16096A3">
+<designStoragePath>C:\Users\pc\OneDrive\Desktop\project</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="0FF17C52-C88E-1FDE-5946-7FC63FBE9FDE">
+<designStoragePath>C:\Users\pc\OneDrive\Desktop\logical desgin</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="093620E8-D7C0-DDA1-45A5-0397349EBB39">
+<designStoragePath>C:\Users\pc\OneDrive\Desktop\project</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="185440DB-8C44-AFE5-DEA7-CDAB16E14ACE">
+<designStoragePath>C:\Users\pc\OneDrive\Desktop\project</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

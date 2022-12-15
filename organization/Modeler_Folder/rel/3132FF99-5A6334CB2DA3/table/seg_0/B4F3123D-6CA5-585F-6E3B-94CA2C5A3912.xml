@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4F3123D-6CA5-585F-6E3B-94CA2C5A3912" name="Participate">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>68A59A94-595C-3B32-0039-238E391459D5</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>036707EA-6C09-BDEA-7308-7E11E4014B7D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Racing_driver_RD" id="7137651B-0252-733E-2745-3EFB9D54E1F3">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>744A01A4-AE63-0EF1-1E39-357226690632</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>AAF1FF1C-0291-0360-D77A-34B5CEA8D212</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B194E030-7FF5-117D-760C-DEB5F38DDF17" referredColumn="3FD5AE10-58F5-6541-9F34-BDBF087FEA71"/>
+</associations>
+</Column>
+<Column name="Races_R" id="5CD7C261-6043-B4D2-A207-9F3F2171705B">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>86D20955-6818-BE02-4945-387854B06AD8</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>4B347AC1-4551-1EEB-FB8A-576431E9F126</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B586B2C-9640-B8A1-10D4-81E2479B612C" referredColumn="0AEC553B-D8F4-635E-4DBD-DFBABE638747"/>
+</associations>
+</Column>
+<Column name="Period_Period" id="9E765352-4786-4AD5-7EAE-524ACFDB8C0B">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>E88BCEE6-2BDB-9143-5612-49E5143D0A7A</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>B3278C11-00B1-C4DC-E7B4-871586927F20</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68348C4B-6A99-7627-2D55-03E8C5D7492D" referredColumn="11F06BEB-1F9C-A7D1-B7F5-0A349FA5EBBD"/>
+</associations>
+</Column>
+<Column name="Races_Duration_Start_Time" id="AD71AD8F-135A-0D80-7595-10E87E8A7C30">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>D9DE03C7-B267-1680-A3AF-97DD9BFE2357</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>94609646-8B3E-7031-4323-092E3725E9C1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B586B2C-9640-B8A1-10D4-81E2479B612C" referredColumn="93B6E983-99C1-1CBE-D569-ED2BBF129918"/>
+</associations>
+</Column>
+<Column name="Races_Duration_End_time" id="9F6DB5E8-CA13-C8AE-8772-60BD2CF22D16">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>FE527F30-D8DB-2163-CD25-90EA615C652D</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>EB1C1FB7-646C-15AB-3B60-354CEDA21018</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B586B2C-9640-B8A1-10D4-81E2479B612C" referredColumn="7A9EAC19-D85D-DFF3-3E87-DDA0DDE8FA50"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E484AAE-057A-8F8D-90F5-19CC85BA20D7" name="Participate_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>F0A2B608-1DEF-E002-7627-71BC02B0B6E6</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>3B97C9D2-2A80-8CA4-69F3-71D580E48343</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7137651B-0252-733E-2745-3EFB9D54E1F3"/>
+<colUsage columnID="5CD7C261-6043-B4D2-A207-9F3F2171705B"/>
+<colUsage columnID="AD71AD8F-135A-0D80-7595-10E87E8A7C30"/>
+<colUsage columnID="9F6DB5E8-CA13-C8AE-8772-60BD2CF22D16"/>
+<colUsage columnID="9E765352-4786-4AD5-7EAE-524ACFDB8C0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14C89123-1A39-EC37-786C-30B5EF61089A" name="Participate_Racing_driver_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>F3BB3969-C569-B911-047B-8DF52E766E14</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7137651B-0252-733E-2745-3EFB9D54E1F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="215B7CF8-F613-B44C-52A9-2BCBE1678563" name="Participate_Period_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>AA47EB8D-DC70-6F5C-012F-55DCDB45E080</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E765352-4786-4AD5-7EAE-524ACFDB8C0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="716193C1-7CCA-4554-DA4A-0478F12DA311" name="Participate_Races_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>DCA20F94-77CD-C566-E15A-3A5E2B62B5E4</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CD7C261-6043-B4D2-A207-9F3F2171705B"/>
+<colUsage columnID="AD71AD8F-135A-0D80-7595-10E87E8A7C30"/>
+<colUsage columnID="9F6DB5E8-CA13-C8AE-8772-60BD2CF22D16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

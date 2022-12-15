@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6FD0613-09E9-6B94-CDC8-08EFA197E4F1" containerWithKeyObject="B1BE1CE5-7D74-9121-EB7E-BFEC51A630D2" localFKIndex="AB58224F-B97D-07B7-FABC-FD176BB4AC5C" name="Engine_car_manufacturer_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>3F648EEC-99A8-9929-DE30-3158A46CC8AF</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>E2721184-9B5B-695A-8310-801E3ECDE485</importedID>
+<referredTableLongName>car_manufacturer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>94E0FDFC-027D-289C-5FC1-0BF1E061D796</referredTableID>
+<keyObject>2B1467E9-8BEE-2095-B157-D569B2077B81</keyObject>
+<referredKeyID>2B1467E9-8BEE-2095-B157-D569B2077B81</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Manu#,name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7AD4A99-C32E-BA86-746A-AE5180067AEE" containerWithKeyObject="E1657EFC-155F-2299-EAF8-42663B611639" localFKIndex="EACDE124-9E46-0D88-87FF-B8328AE566C0" name="adjust_mechanic_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>6B599046-1D2E-375D-E000-645CB7D82E93</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>C5E48BE8-2CDD-42FE-7B1E-A148CA6EAA03</importedID>
+<referredTableLongName>mechanic</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5B094ABC-EC5A-032E-383D-11C1A7D0F3AA</referredTableID>
+<keyObject>B91623EB-FEA4-CFFF-868E-1138FD0C2A23</keyObject>
+<referredKeyID>B91623EB-FEA4-CFFF-868E-1138FD0C2A23</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Mech</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

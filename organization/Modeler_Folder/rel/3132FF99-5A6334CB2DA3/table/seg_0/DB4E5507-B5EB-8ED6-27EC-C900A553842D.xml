@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB4E5507-B5EB-8ED6-27EC-C900A553842D" name="break_assenbler">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>C1D9F06E-2EB3-A2F2-9F95-E0F22C98BE8B</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>5B9EBAFD-E620-A460-DB28-BB2F45E7F9BD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="break" id="ABB32619-A5AE-F324-906F-34D92952ACB6">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>07A7A9C4-F81D-3C36-EC66-B5721A701DD3</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>F32523AA-A488-42E0-1A45-067CCC620B2E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASSEMBLER_ASSEM" id="7CF6C771-50A0-5ABE-0C6D-4C1AB3CD8B81">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>B82AA461-5921-70A7-FB1C-2198D5C0EC17</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>6BF0D3A3-17A0-2390-63B3-2A198FF1784F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F7F8914-BFE9-D838-D28F-C9BF3E3BCEC4" referredColumn="333FC9EF-A820-42C2-0417-C505A54411AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3D865A2-900E-CE6C-CD78-B575B879118A" name="break_assenbler_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>52DDE71D-80B5-013E-9859-20C020E93707</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>DD3E62F1-5B3C-4F4D-B60D-568448A97E73</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABB32619-A5AE-F324-906F-34D92952ACB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9C2FFD2-FD05-E52D-9C65-5C161D8221DC" name="break_assenbler__IDX">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>75FDF96A-0F0B-3FC8-9053-B8EC0B986E63</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CF6C771-50A0-5ABE-0C6D-4C1AB3CD8B81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0FF37F2-87BE-00F3-4899-0980BB534240" name="break_assenbler_ASSEMBLER_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>5E4C04B9-A6D8-70E5-1AEE-19CE53D4AE3C</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CF6C771-50A0-5ABE-0C6D-4C1AB3CD8B81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

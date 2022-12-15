@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B511DA93-8A3D-B56C-849A-55B0D422C87E" name="Wheel_Assembler">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>D4DC5699-62CB-EB73-34D6-27B2E9DC9555</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>DDC21CA9-07B0-A062-DE82-FCCBDB7E283A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Wheel" id="8F64CA39-3552-E5DF-2A70-5B9A937218FE">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>322CC67C-F4D5-B347-7F68-D685C8DEF4B1</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>76FE3E8D-7129-D388-91C3-51DF8C724EA4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASSEMBLER_ASSEM" id="7F22D87C-7FA5-0401-57B9-7A7E115BCD1D">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>AEAC7C2C-3843-6EAE-3A5E-6B65B5A1ADEE</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>4221EE2B-6FA3-08A3-A810-9CD9F4824C86</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78016BFC-8B14-6B57-2450-184C176C2AD2" referredColumn="333FC9EF-A820-42C2-0417-C505A54411AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C36B20E0-DBB2-BDDF-9269-735EA75660EE" name="Wheel_Assembler_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>CAFD5DB6-8266-0239-2BCA-3F1150B017FD</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>35DCA99F-DA58-EC5D-C376-1BA7DF801F8E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F64CA39-3552-E5DF-2A70-5B9A937218FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56320AF9-3CA4-8F77-2C14-00FDBD960227" name="Wheel_Assembler__IDX">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>6477CAAC-6236-C12F-2AE5-A7CF35C0DD06</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F22D87C-7FA5-0401-57B9-7A7E115BCD1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="494D762F-DFD8-7D29-1DA0-F1E1DD4E0BD6" name="Wheel_Assembler_ASSEMBLER_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>A52BE890-EB79-E615-9AF2-A7CD4842A52C</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F22D87C-7FA5-0401-57B9-7A7E115BCD1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

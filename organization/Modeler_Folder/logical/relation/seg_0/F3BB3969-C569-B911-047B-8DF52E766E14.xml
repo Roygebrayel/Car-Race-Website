@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Participate Racing driver FK" directorySegmentName="seg_0" id="F3BB3969-C569-B911-047B-8DF52E766E14">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>C8C4858D-C72F-3E03-C1C8-119839789F69</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>8BE94B45-4EF5-9DBE-EAFA-920D91251A90</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>25958BA4-4AA4-F880-FCFE-09626E652A63</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>68A59A94-595C-3B32-0039-238E391459D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

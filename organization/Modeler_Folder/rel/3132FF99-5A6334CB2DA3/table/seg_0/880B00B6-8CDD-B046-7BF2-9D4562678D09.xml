@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="880B00B6-8CDD-B046-7BF2-9D4562678D09" name="Tv_Broadcaster">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>B09522C8-E1E6-6DE7-D577-451F4634DF1E</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>D37ECA31-69A7-2498-D38D-C887F85D4EDA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TV" id="9F69F643-F014-2156-A230-1D6BABFD68F3">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>98E371F2-8B59-7125-CDBE-452504FD22C9</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>7E622F1C-01A5-A043-285C-E4714C70E9D2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TV_Network" id="54FF86E6-00BD-D7A8-B7DD-52CD862B1551">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>314B4AD8-2BED-5C8F-1520-47279B2AEC94</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>B0E14367-CE6E-8F6B-9DCF-50D0CF8B95EE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="645D6098-3C48-05FB-67FC-9D09A0B97C72" name="Tv_Broadcaster_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>0CA93BE5-EF94-9294-B229-25A3C3CF2913</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>37D28FF1-8FE6-01F9-30E5-8158D562346C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F69F643-F014-2156-A230-1D6BABFD68F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

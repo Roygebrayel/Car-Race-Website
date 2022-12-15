@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Electronic Engineer FK" directorySegmentName="seg_0" id="5C7CF099-9282-B902-8A34-2745F66C4F2A">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>77358392-76A2-327D-49A5-1754E93D26C5</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>A567FE1A-51B6-38DD-F623-E5AEA7AED1B3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2DD60FF8-3B8E-E627-674C-05D296F1C217</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D63127A3-3884-3A51-1DEB-5DB68E5FAC5D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

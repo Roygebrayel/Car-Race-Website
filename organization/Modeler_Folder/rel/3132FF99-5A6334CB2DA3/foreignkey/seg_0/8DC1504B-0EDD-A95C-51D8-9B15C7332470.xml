@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8DC1504B-0EDD-A95C-51D8-9B15C7332470" containerWithKeyObject="C376F909-D5C2-B969-90EA-B3FE34412D0F" localFKIndex="1D0505CE-E5DD-AB62-DBFD-AD25BA6795F7" name="organization_Tv_Broadcaster_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>1A6FDCC7-4BF3-C232-4285-3297AD9507D1</importedID>
+<referredTableLongName>Tv_Broadcaster</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>880B00B6-8CDD-B046-7BF2-9D4562678D09</referredTableID>
+<keyObject>645D6098-3C48-05FB-67FC-9D09A0B97C72</keyObject>
+<referredKeyID>645D6098-3C48-05FB-67FC-9D09A0B97C72</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TV</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

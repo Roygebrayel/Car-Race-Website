@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="796B2886-107B-B8B6-1FFD-B1A634A3161D" name="Car_Tuners">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>769F8BF1-1559-6612-0191-4E8EDFF27C0D</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>CEDBAFC0-F364-BEEC-CEE2-2702DA0B294D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tun" id="2B9EF8F5-8D03-6D12-9BF5-D230FB0E7414">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>44EDDA8F-4155-0FAD-3CFF-6E1923783C34</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>65D581D1-615E-FB21-457B-AF30A2F5736D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8BB809C-CD3B-02FE-D96E-854C6DC558B0" name="Car_Tuners_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>2351A772-1428-BD21-069B-11E45D789DBD</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>3FD8DD8C-504E-3B76-4B6F-0911894FA58F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B9EF8F5-8D03-6D12-9BF5-D230FB0E7414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

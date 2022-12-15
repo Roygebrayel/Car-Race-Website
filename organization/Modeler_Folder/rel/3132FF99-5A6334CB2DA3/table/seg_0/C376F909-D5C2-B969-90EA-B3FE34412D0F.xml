@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C376F909-D5C2-B969-90EA-B3FE34412D0F" name="organization">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>A4F55198-402E-BEE7-EEE6-AA7F26CE4CB3</importedID>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Races_R" id="F40BF320-A2DD-C9E7-5CF8-ABEB2B3CF749">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>8883DDD9-B3F2-2B72-BBD1-B8C8900DAD27</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4F56FAD-629A-3542-CFCC-DBF0B32943E4" referredColumn="0AEC553B-D8F4-635E-4DBD-DFBABE638747"/>
+</associations>
+</Column>
+<Column name="Race_Manager_Mgmt" id="FD2BA303-AA92-8E22-B8D6-895C44AC87CE">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>96093923-A847-7FEE-AD6C-D6BB2B6EA3FA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7766047D-563F-157F-2636-3F93D97D1B4A" referredColumn="85B033DD-8F61-B634-AEF9-9D0C8F0A7A59"/>
+</associations>
+</Column>
+<Column name="Tv_Broadcaster_TV" id="3CF2259C-3B74-A44A-7E6E-7F16609FA125">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>34A3EDC9-6E46-49DB-D6C3-525BB246FD7C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DC1504B-0EDD-A95C-51D8-9B15C7332470" referredColumn="9F69F643-F014-2156-A230-1D6BABFD68F3"/>
+</associations>
+</Column>
+<Column name="Races_Duration_Start_Time" id="01003B14-91C7-A377-E6C6-C85F6C6C6950">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>EA4BF54F-8BA3-43B1-D2DC-1A13DD3E0063</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>813589E2-4E56-CC03-6B9F-6C0122FBE123</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4F56FAD-629A-3542-CFCC-DBF0B32943E4" referredColumn="93B6E983-99C1-1CBE-D569-ED2BBF129918"/>
+</associations>
+</Column>
+<Column name="Races_Duration_End_time" id="70122098-222E-4881-849C-39F409B7B2F8">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>5C09B836-D4F0-691A-BB99-3E3D67612D0A</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>6DDFB599-49E1-F12D-AC86-80DF4228EA6E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4F56FAD-629A-3542-CFCC-DBF0B32943E4" referredColumn="7A9EAC19-D85D-DFF3-3E87-DDA0DDE8FA50"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52919996-5DE1-610E-557D-93477C381B1F" name="organization_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>7216A8E7-027B-80A0-43AD-A57CACC9BCAE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F40BF320-A2DD-C9E7-5CF8-ABEB2B3CF749"/>
+<colUsage columnID="01003B14-91C7-A377-E6C6-C85F6C6C6950"/>
+<colUsage columnID="70122098-222E-4881-849C-39F409B7B2F8"/>
+<colUsage columnID="FD2BA303-AA92-8E22-B8D6-895C44AC87CE"/>
+<colUsage columnID="3CF2259C-3B74-A44A-7E6E-7F16609FA125"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D0505CE-E5DD-AB62-DBFD-AD25BA6795F7" name="organization_Tv_Broadcaster_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CF2259C-3B74-A44A-7E6E-7F16609FA125"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF8A902A-0378-C595-8FDE-1C0AA29E9B75" name="organization_Race_Manager_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD2BA303-AA92-8E22-B8D6-895C44AC87CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7592CFC2-AC4E-A51E-1D85-63F616897932" name="organization_Races_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F40BF320-A2DD-C9E7-5CF8-ABEB2B3CF749"/>
+<colUsage columnID="01003B14-91C7-A377-E6C6-C85F6C6C6950"/>
+<colUsage columnID="70122098-222E-4881-849C-39F409B7B2F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

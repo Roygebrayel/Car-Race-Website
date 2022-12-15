@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="726BDC41-A3D8-8ED4-0F3A-01E2B28B8C6C" containerWithKeyObject="E1657EFC-155F-2299-EAF8-42663B611639" localFKIndex="2ACF2353-5AD0-7B15-8A8D-9FA9DE1A3BD9" name="adjust_Racing_driver_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>BBDD5734-0C54-8ABF-5E3B-EA68D2ACD45D</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>DAC0D292-EDB2-9508-590D-BD3B5079A505</importedID>
+<referredTableLongName>Racing_driver</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB9C2949-39D2-24F5-3E32-F6B281AE3C20</referredTableID>
+<keyObject>5E0383D5-6F39-B2C4-7E84-C353DD00AFCD</keyObject>
+<referredKeyID>5E0383D5-6F39-B2C4-7E84-C353DD00AFCD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

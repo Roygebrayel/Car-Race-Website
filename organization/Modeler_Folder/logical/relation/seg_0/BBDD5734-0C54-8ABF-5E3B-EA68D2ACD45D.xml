@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="adjust Racing driver FK" directorySegmentName="seg_0" id="BBDD5734-0C54-8ABF-5E3B-EA68D2ACD45D">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>AE6C62E4-BA65-6E70-CBDA-E01E33F40726</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>8BE94B45-4EF5-9DBE-EAFA-920D91251A90</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>25958BA4-4AA4-F880-FCFE-09626E652A63</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7509E6B-7DF1-667B-9D00-B6F30B57D231</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

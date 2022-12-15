@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Wheel Assembler ASSEMBLER FK" directorySegmentName="seg_0" id="A52BE890-EB79-E615-9AF2-A7CD4842A52C">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>EB32BCF1-B519-A585-F486-C007B57388FC</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>3905B8F7-64A3-06D8-4A22-D595D9D1B9A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0AF1D046-2060-A47A-BE14-8E45FAA9E0AC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D4DC5699-62CB-EB73-34D6-27B2E9DC9555</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFBBC3EB-5ECC-D5F1-F8C4-B096655D07F1" name="Chassis_Assembler">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>6E6E3AA8-6C06-3CF4-7867-EF0E57C71618</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>5BA2CFD2-B730-1D6D-D295-B0927DA67FB9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Chass" id="2A8E7BBD-1A2D-2DEB-C0A9-DA5B32F6F1F0">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>0DD1A067-6B7A-9D83-377E-59484749C232</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>5A145D33-99D2-D59B-DFF8-FB400E04AB84</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASSEMBLER_ASSEM" id="465B0932-3760-F32E-164F-BD441555E604">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>226E7FBE-9465-4589-7C04-084892EAB502</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>32B931D5-75D6-0573-3747-D0B685BA849D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03FABC3E-A644-919A-F963-F73057DDF0B8" referredColumn="333FC9EF-A820-42C2-0417-C505A54411AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F080992C-C494-2EDE-81D8-8CCDB6F9D43B" name="Chassis_Assembler_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>2C663E81-7F91-0784-0C0B-D8A0E17E4A84</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>D41F1635-C249-903A-B917-460E2DFB98BA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A8E7BBD-1A2D-2DEB-C0A9-DA5B32F6F1F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7952E37-DE97-340A-45D9-E1B517D0DC11" name="Chassis_Assembler__IDX">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>FFF09437-D670-3FE3-A832-79AF2FCE03C2</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="465B0932-3760-F32E-164F-BD441555E604"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B3E3732-97D0-3A2C-82EF-9109D1D6252D" name="Chassis_Assembler_ASSEMBLER_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>32AF7646-00E2-8386-5C99-BC4E9F843492</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="465B0932-3760-F32E-164F-BD441555E604"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

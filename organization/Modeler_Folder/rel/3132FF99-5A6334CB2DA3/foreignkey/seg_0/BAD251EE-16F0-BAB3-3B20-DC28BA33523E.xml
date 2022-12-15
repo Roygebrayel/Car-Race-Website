@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BAD251EE-16F0-BAB3-3B20-DC28BA33523E" containerWithKeyObject="9F236206-DC79-AD24-A255-3D893162D3E3" localFKIndex="7445ED8F-FC7E-6A0D-0A9F-1EC537185E17" name="Racing_Car_car_manufacturer_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>15A3E708-F095-7D26-69D8-EF77B21A09F1</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>A7A09B17-65EC-2D36-1758-CF982DC6A312</importedID>
+<referredTableLongName>car_manufacturer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>94E0FDFC-027D-289C-5FC1-0BF1E061D796</referredTableID>
+<keyObject>2B1467E9-8BEE-2095-B157-D569B2077B81</keyObject>
+<referredKeyID>2B1467E9-8BEE-2095-B157-D569B2077B81</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Manu#,name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

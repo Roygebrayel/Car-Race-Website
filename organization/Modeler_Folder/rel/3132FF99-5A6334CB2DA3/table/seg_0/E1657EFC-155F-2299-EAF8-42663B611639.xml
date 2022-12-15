@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1657EFC-155F-2299-EAF8-42663B611639" name="adjust">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>A7509E6B-7DF1-667B-9D00-B6F30B57D231</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>9A8901EE-B153-664C-EE3E-DCFEABA59874</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Racing_driver_RD" id="184572C2-3321-B89C-9833-D1E267E33FA5">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>E2790058-D3F3-3E7A-33C3-65D549883531</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>250CB631-D515-40E2-AEBF-F6B962228BA6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="726BDC41-A3D8-8ED4-0F3A-01E2B28B8C6C" referredColumn="3FD5AE10-58F5-6541-9F34-BDBF087FEA71"/>
+</associations>
+</Column>
+<Column name="Racing_Car_RC" id="4C21D310-F178-18C8-7F2F-D417307464B5">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>1BBC4576-7079-7A99-3987-B452F3FA04F6</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>4DDA8194-8D05-5769-6E6E-6233D3717F7E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB0ED137-DD9C-8E23-49CF-2E4EB67233FF" referredColumn="61424F72-725D-9CF3-7AD8-FC65C44558D2"/>
+</associations>
+</Column>
+<Column name="mechanic_Mech" id="72D3DC01-7658-BE01-B51E-893A28DDB853">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>1732D947-5375-763A-0811-5C89DC37B053</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>0C19932F-EF68-2F97-3A32-1252B25F603C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7AD4A99-C32E-BA86-746A-AE5180067AEE" referredColumn="F9F04BF5-3304-81E4-FB48-DF93174C8813"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD368F86-ADAB-0F6B-A509-08D6FA73EC57" name="adjust_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>4061F457-60E9-AFE2-0052-3FC6BCC492ED</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>425304E9-FDC4-3A1A-F20E-E98D89933025</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="184572C2-3321-B89C-9833-D1E267E33FA5"/>
+<colUsage columnID="4C21D310-F178-18C8-7F2F-D417307464B5"/>
+<colUsage columnID="72D3DC01-7658-BE01-B51E-893A28DDB853"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3D9D84E-8794-0895-DFEF-ED99EB6941EE" name="adjust_Racing_Car_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>3FACDACE-4DEE-6C39-EF11-90DCAD8416B6</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C21D310-F178-18C8-7F2F-D417307464B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EACDE124-9E46-0D88-87FF-B8328AE566C0" name="adjust_mechanic_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>6B599046-1D2E-375D-E000-645CB7D82E93</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72D3DC01-7658-BE01-B51E-893A28DDB853"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ACF2353-5AD0-7B15-8A8D-9FA9DE1A3BD9" name="adjust_Racing_driver_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>BBDD5734-0C54-8ABF-5E3B-EA68D2ACD45D</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="184572C2-3321-B89C-9833-D1E267E33FA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

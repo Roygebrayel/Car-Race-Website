@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0D536B6-43C8-3AF4-59AC-2A3698AE96CC" name="Manager">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>4D30BBFC-2D4E-01D1-67C9-0C95C335E94F</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>818E5601-C26E-85D3-95B1-FFCC4D598A01</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Mng" id="C61B35B3-1E1E-36D7-B8FF-970F66F8E3D3">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>49200C71-58ED-A671-81A8-F2DA29D69DE2</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>D810B6D1-9E32-7B11-928D-1BBEAC94B727</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="4026594F-46DB-1348-E066-AD212EDFF2BE">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>9F8DDE68-25FC-5B5B-1232-AD9F2E9D500B</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>CF6118A8-27B3-6ABC-852F-85428E818BEA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Racing_Team_RT" id="DD9C16B2-F6BA-AE2E-1F4F-E08FEE51CD44">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>02D2E5F5-0A02-EA22-70C7-90BF47845371</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>F5414CF9-3070-1D75-95BB-B44075EF93ED</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F31D779-F81B-B272-59E7-116B2CCA9C5B" referredColumn="2CBBEE45-5D04-A25F-F388-540CAAF3BB4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37F836E9-D66B-C458-BB9D-4D69BF4700A4" name="Manager_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>76FCC5DA-673F-077D-F1DD-95218E648BD4</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>1EFD7C5A-D799-A9C1-ACD4-3B932D2431AC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C61B35B3-1E1E-36D7-B8FF-970F66F8E3D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45D4D586-1B67-261E-DB68-C564271343C8" name="Manager__IDX">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>585218B3-F847-EE4A-4C0E-1EC72E7C7DF3</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD9C16B2-F6BA-AE2E-1F4F-E08FEE51CD44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A267DF1-0982-C4BF-067A-40EF3142AA48" name="Manager_Racing_Team_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>6C5F5531-9FCD-1B04-1427-E6FE6F0893CA</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD9C16B2-F6BA-AE2E-1F4F-E08FEE51CD44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

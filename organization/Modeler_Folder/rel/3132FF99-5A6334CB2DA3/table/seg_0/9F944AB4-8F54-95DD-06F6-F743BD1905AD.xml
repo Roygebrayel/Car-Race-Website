@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F944AB4-8F54-95DD-06F6-F743BD1905AD" name="Racing_Team">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>7A7756D4-806D-2A34-4BF1-23F9C229B790</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>6010580E-F671-58B7-8EA3-B5F70DFA6F24</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RT" id="2CBBEE45-5D04-A25F-F388-540CAAF3BB4A">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>41914A80-9CFE-31E1-FC3A-0CB449065C3B</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>00165C48-B363-0FC2-3B31-E377271FCEAC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="B0154175-DF88-8E0C-261B-DA9496A2C382">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>51F51B6A-DA09-A274-E353-D310ACA3D233</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>D3F7E9E3-3207-17C9-7CA4-A2803FF812F7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_Of_Members" id="34A34220-D758-61A2-4922-C16B5927E77D">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>86ED54E1-7B76-CB44-24E5-2AB915F8E4DC</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>B60F26BB-574D-C046-FCDE-24413552D0F5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1839355-7AA8-2CC7-C7EA-08B0D8D816F9" name="Racing_Team_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>56476E6E-CACB-F191-09E9-F84C637D5119</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>B9D11546-5CE9-066C-9F62-399B3ACA6E01</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CBBEE45-5D04-A25F-F388-540CAAF3BB4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

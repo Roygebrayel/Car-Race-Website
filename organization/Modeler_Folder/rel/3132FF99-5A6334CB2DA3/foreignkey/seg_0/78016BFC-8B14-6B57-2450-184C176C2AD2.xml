@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78016BFC-8B14-6B57-2450-184C176C2AD2" containerWithKeyObject="B511DA93-8A3D-B56C-849A-55B0D422C87E" localFKIndex="494D762F-DFD8-7D29-1DA0-F1E1DD4E0BD6" name="Wheel_Assembler_ASSEMBLER_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>A52BE890-EB79-E615-9AF2-A7CD4842A52C</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>8BAE6CC4-8EAF-0852-44DD-CF2F0428589D</importedID>
+<referredTableLongName>ASSEMBLER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61C59475-F18D-18C7-58DB-E8ACEC329F6B</referredTableID>
+<keyObject>C6950281-F20A-2F19-9C09-6BA0E2602314</keyObject>
+<referredKeyID>C6950281-F20A-2F19-9C09-6BA0E2602314</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ASSEM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

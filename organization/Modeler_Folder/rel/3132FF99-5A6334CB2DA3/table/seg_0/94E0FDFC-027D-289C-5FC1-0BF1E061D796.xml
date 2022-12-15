@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94E0FDFC-027D-289C-5FC1-0BF1E061D796" name="car_manufacturer">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>B2090749-ED89-B705-0F21-65B27A7FC599</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>A65F8ECF-6D5F-E66D-3F59-9B246C781C62</importedID>
+<abbreviation>manu</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Manu#" id="5601B1FB-F695-3CA6-74CC-C9E6ABBFA87C">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>9372946D-0F06-6876-5379-F815CFF9A03A</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>1880E704-393E-750E-609A-15729585C5BD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="8663F8E5-E17A-26E1-E604-36C4E6908F6D">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>4B71A3A4-0B9B-565E-D374-6F94148F8DF5</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>5A276598-3212-71CE-977C-2241034FCF50</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="C0BB3F2A-6EE7-BD8A-0B27-14CA9DF88C67">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>988FB42F-42CA-EF2E-2C00-BE740CE870CD</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>1AB0F58A-360C-33B2-1558-9B2C2CA20D8F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B1467E9-8BEE-2095-B157-D569B2077B81" name="car_manufacturer_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>B7AFAA63-AC02-782B-2E7A-A9F1235E5F77</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>89F0EADA-2BAB-5E0A-7647-8FB885FC98BF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5601B1FB-F695-3CA6-74CC-C9E6ABBFA87C"/>
+<colUsage columnID="8663F8E5-E17A-26E1-E604-36C4E6908F6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Gear Specialist Engineer FK" directorySegmentName="seg_0" id="3DC8D44E-81F1-4E40-2A93-F90524DF616B">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>67D4B042-02CA-D625-8F2F-5EDB1E684FF3</importedID>
+<engineerTo>
+<item key="F2487F03-8955-26F6-CE02-29DFAA02A94A" value="true"/>
+<item key="3132FF99-1754-67CA-2E69-5A6334CB2DA3" value="true"/>
+</engineerTo>
+<sourcePk>A567FE1A-51B6-38DD-F623-E5AEA7AED1B3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2DD60FF8-3B8E-E627-674C-05D296F1C217</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E7626AA6-789C-27FC-B5C1-C52B68523132</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

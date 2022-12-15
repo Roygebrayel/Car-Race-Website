@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F236206-DC79-AD24-A255-3D893162D3E3" name="Racing_Car">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>5EBFEAF2-3905-51CE-185E-0A39CF1FAF39</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>ED378664-6E3B-048D-194F-829FC14FDE7B</importedID>
+<abbreviation>Car</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RC" id="61424F72-725D-9CF3-7AD8-FC65C44558D2">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>5A86C665-CA25-CBA2-E80A-FA338800AF47</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>9CB59872-A1DB-7FAA-7A6E-AB35274680A7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POWER" id="72E45140-CE77-997A-8D8B-73350B88F229">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>44C3D19F-DF4E-2E8D-ECAE-6ECE39BFFA6F</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>07A3F348-37A2-3CAF-AB8A-19472C5DC079</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Color" id="F9AACC58-5D30-ACEE-B611-06BF1E365763">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>AE2A4110-8F10-81B0-6538-042C43FCDA76</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>9F94DBFB-44E5-159F-C5D4-535BD56EA949</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="car_manufacturer_Manu" id="43A79EDE-6F3D-440E-25BC-2162B901C2FC">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>0A692B6D-F46A-6A63-5163-3D67C5A06958</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>7A70DAB3-C539-E6B8-29B7-3E0A02BE5971</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAD251EE-16F0-BAB3-3B20-DC28BA33523E" referredColumn="5601B1FB-F695-3CA6-74CC-C9E6ABBFA87C"/>
+</associations>
+</Column>
+<Column name="car_manufacturer_name" id="DD9F7575-42A2-4973-135A-C8BEF7C14F40">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>4EC64151-9CEC-69EC-0C5E-A5451A45B08C</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>F17DF922-8FED-441F-73A6-D8BBC0B7464A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAD251EE-16F0-BAB3-3B20-DC28BA33523E" referredColumn="8663F8E5-E17A-26E1-E604-36C4E6908F6D"/>
+</associations>
+</Column>
+<Column name="Racing_Team_RT" id="2D30DCBC-31DD-41BC-04F9-DD49AA504539">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>D7DC98C6-62E9-8AB6-E06F-1DD4BE84946F</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>47CE9BF8-56F8-9968-F4E6-4295231A6645</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7026C108-69D0-604D-932C-D0CE9BF00BBB" referredColumn="2CBBEE45-5D04-A25F-F388-540CAAF3BB4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9CCB18B-6D7F-26A8-97FE-2648B06F6ED9" name="Racing_Car_PK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:02 UTC</createdTime>
+<generatorID>7BCC3D3F-797F-C651-A85E-9812912E918B</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<importedID>B31C3F55-2374-B8C4-F259-1C6558451E0E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61424F72-725D-9CF3-7AD8-FC65C44558D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7445ED8F-FC7E-6A0D-0A9F-1EC537185E17" name="Racing_Car_car_manufacturer_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>15A3E708-F095-7D26-69D8-EF77B21A09F1</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43A79EDE-6F3D-440E-25BC-2162B901C2FC"/>
+<colUsage columnID="DD9F7575-42A2-4973-135A-C8BEF7C14F40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33963A54-998C-C0C8-46F4-B7113B7DFE96" name="Racing_Car_Racing_Team_FK">
+<createdBy>pc</createdBy>
+<createdTime>2022-12-15 19:01:03 UTC</createdTime>
+<generatorID>516570E0-2F0C-FC8B-07FA-DD6969BC850C</generatorID>
+<ownerDesignName>project3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D30DCBC-31DD-41BC-04F9-DD49AA504539"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
