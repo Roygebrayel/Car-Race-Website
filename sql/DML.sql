@@ -15,12 +15,12 @@ VALUES ('Abbas','10','abbashamyeh2004@gmail.com','78908353','NEWPASS');
 
 --@block
 Select VIN from Racing_Car As Car_Vin
-where cartype = 'ih';
+where cartype = 'BMW';
 
 --@block 
 SELECT COUNT(VIN)
 FROM Racing_Car
-WHERE color='RED' OR cartype ='ih';
+WHERE color='RED' OR cartype ='BMW';
 
 --@block
 SELECT VIN, RC ,(VIN + RC) AS RC_VIN
