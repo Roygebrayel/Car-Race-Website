@@ -19,11 +19,11 @@ also a new language we've learned php that enables us to connect the database in
 
 ### HTML
 
--we've made 5 HTML pages all of them about registration forms and home page
+- we've made 5 HTML pages all of them about registration forms and home page
 
 ### CSS
 
--we've made the css files related to the html to design the website
+- we've made the css files related to the html to design the website
 
 ### json
 
