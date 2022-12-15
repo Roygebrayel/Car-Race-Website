@@ -226,6 +226,11 @@ CREATE TABLE Race_court (
     PRIMARY KEY (Rc)
 );
 
+-- default idea
+
+ALTER TABLE race_court 
+ALTER Distance SET DEFAULT  '2';
+
 CREATE TABLE Duration (
     Start_Time INTEGER NOT NULL,
     End_Time INTEGER NOT NULL,

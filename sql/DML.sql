@@ -44,6 +44,8 @@ ON Racing_Car.RC = racing_driver.RD;
 INSERT INTO  engineer(Eng) VALUES (9);
 INSERT INTO assembler(Assem) VALUES (6);
 
+
+
 INSERT INTO  mechanic (MechName,salary_Per_Hour) VALUES ('roy','20');
 
 
@@ -58,6 +60,7 @@ INSERT INTO car_manufacturar(Manu,Mname,Country) VALUE(9,'abbas','us');
 SELECT COUNT(Manu), Country
 FROM Car_Manufacturar
 GROUP BY Country
+HAVING COUNT(Manu)>1
 ORDER BY Manu;
 
 --@block
@@ -81,8 +84,51 @@ ORDER BY racing_car.carpower DESC;
 
 --@block
 
+-- like idea (wildcard)
+
 SELECT * FROM racing_driver
 WHERE racing_driver.fullName LIKE 'a%';
+
+
+--@block
+
+-- distinct select
+SELECT DISTINCT cartype FROM racing_car
+WHERE carpower BETWEEN 300 AND 500;
+
+
+
+
+--@block
+
+-- union select
+
+SELECT fullName FROM racing_driver
+UNION ALL
+SELECT VIN FROM racing_car;
+
+--@block
+
+-- switch case
+
+SELECT RC,carpower,
+
+CASE
+    WHEN carpower< 500 THEN 'you go to the race 1'
+    WHEN carpower > 500 THEN 'you participate in the  race 2'
+    ELSE 'you wait'
+END AS raceOrganization
+FROM racing_car;
+
+--@block
+
+-- default insertion (2)
+
+INSERT INTO race_court (Capacity) VALUES (20);
+
+
+
+
 
 
 
