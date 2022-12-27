@@ -13,6 +13,7 @@ CREATE table Racing_Driver (
 
     PRIMARY KEY (RD)
     
+    
 );
 
 
