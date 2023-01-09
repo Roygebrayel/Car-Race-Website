@@ -5,7 +5,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "NewPassword";
-$dbname = "car_race";
+$dbname = "carrace";
 
 $email = $_POST['email'];
 $pass = $_POST['pass'];

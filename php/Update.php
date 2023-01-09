@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "NewPassword";
-$dbname = "car_race";
+$dbname = "carrace";
 $newemail = $_POST["newemail"];
 $oldemail = $_POST["oldemail"];
 

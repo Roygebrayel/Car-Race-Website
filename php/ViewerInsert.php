@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "NewPassword";
-$dbname = "car_race";
+$dbname = "carrace";
 
 // defining variables of registration
 
